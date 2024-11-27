@@ -1,0 +1,19 @@
+{
+    "ignorePatterns": [
+        {
+            "pattern": "^https://github.com"
+        },
+        {
+            "pattern": "^https://www.google.com"
+        },
+        {
+            "pattern": "^https://www.amazon.com"
+        },
+        {
+            "pattern": "^https://www.manning.com"
+        },
+        {
+            "pattern": "^https://web.archive.org"
+        }
+    ]
+}
