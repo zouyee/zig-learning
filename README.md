@@ -51,6 +51,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ## Books
 
+* :star: [Learning Zig](https://www.openmymind.net/learning_zig/) - Introduction to Zig aimed at developers coming from garbage collected languages.
 * :star: [Zig Programming Language](https://ziglearn.org) - An introductory book on Zig, covering the basics to advanced topics.
 * :star: [Zig by Example](https://zigbyexample.com) - A hands-on guide with examples to learn Zig.
 * :star: [zig-cookbook](https://cookbook.ziglang.cc/) - Simple Zig programs that demonstrate good practices to accomplish common programming tasks.
@@ -228,24 +229,24 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 
 ## Language stuff
 
-### Closures  
+### Closures
 
 * :star:[Closure Pattern in Zig](https://zig.news/houghtonap/closure-pattern-in-zig-19i3) - [Andrew Houghton](https://zig.news/houghtonap)  
 * [Implementing Closures and Monads in Zig](https://zig.news/andrewgossage/implementing-closures-and-monads-in-zig-23kf)- [Andrew Brent Gossage](https://zig.news/andrewgossage)
 * [Zig Anonymous Functions and Closures: An In-Depth Analysis](https://gencmurat.com/en/posts/zig-anonymus-functions-and-closures/)
 
-### Documentation  
+### Documentation
 
 * :star: [Writing Documentation for Zig Projects](https://ziglang.org/documentation/master/#Comments) - Zig Community  
 * [Generating documentation from zig build](https://sudw1n.gitlab.io/posts/zig-build-docs/) - sudw1n  
 * [Using Zig's Built-in Documentation Generator](https://github.com/ziglang/docgen) - docgen
 
-### Enums  
+### Enums
 
 * :star: [The Power of Zig Enums](https://ziglang.org/documentation/master/#enum) - ziglang.org
 * [Extending an Enum in Zig](https://kihlander.net/post/extending-an-enum-in-zig/) -  Fredrik Kihlander  
 
-### Errors  
+### Errors
 
 * :star: [Ziglang Document:Errors](https://ziglang.org/documentation/master/#Errors) ziglang.org
 * [Error Handling in Zig](https://zig.guide/language-basics/errors/) - zig.guide 
@@ -254,7 +255,7 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * [Error Handling In Zig](https://www.aolium.com/karlseguin/4013ac14-2457-479b-e59b-e603c04673c8) - [karlseguin](https://www.aolium.com/karlseguin)
 * [Errors and Zig](https://notes.eatonphil.com/errors-and-zig.html) -  [Phil Eaton](https://eatonphil.com/)
 
-### Iterators  
+### Iterators
 
 * :star:[proposal: Streamline loops, and enhance iteration](https://github.com/ziglang/zig/issues/3110) - [Tetralux](https://github.com/Tetralux)
 * :star:[Proposal: Generator / Iterator Syntactic Sugar](https://github.com/ziglang/zig/issues/5331) -  [kayomn](https://github.com/kayomn)
@@ -262,7 +263,7 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * [Zig's Curious Multi-Sequence For Loops](https://kristoff.it/blog/zig-multi-sequence-for-loops/) - Loris Cro  
 * [Learning interfaces by implementing iterator in zig](https://zig.news/akhildevelops/learning-interfaces-by-implementing-iterator-in-zig-3do1) - [Akhil](https://zig.news/akhildevelops)  
 
-### Memory  
+### Memory
 
 * :star: [Memory Management in Zig: A Lifetime-Free Approach](https://andrewkelley.me/post/memory-management-in-zig.html) - Andrew Kelley 
 * :star:[Memory Management in Zig](https://ziglang.org/documentation/master/#Memory) - ziglang documentation
@@ -280,7 +281,7 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * [Custom String Formatting and JSON Serializing in Zig](https://www.openmymind.net/Custom-String-Formatting-And-JSON-in-Zig/) - Karl Seguin
 * [Exploring Compile-Time Interfaces in Zig](https://medium.com/@jerrythomas_in/exploring-compile-time-interfaces-in-zig-5c1a1a9e59fd) - [Jerry Thomas](https://medium.com/@jerrythomas)
 
-### Strings  
+### Strings
 
 * [Proposal: Add String to the type system](https://github.com/ziglang/zig/issues/7734) - [mlarouche](https://github.com/mlarouche)
 * [Unicode String Operations](https://zig.news/dude_the_builder/unicode-string-operations-536e) - [dude_the_builder](https://zig.news/dude_the_builder)
@@ -331,15 +332,14 @@ Do you want to find out why some historical decisions took place? [Zig GitHub Di
 
 ### Fearless Zig Bloggers
 
-* [Andrew Kelley](https://github.com/andrewrk) - [blog](https://andrewkelley.me/)  
-* [Loris Cro](https://github.com/kristoff-it) - [blog](https://kristoff.it/)  
+* [Andrew Kelley](https://github.com/andrewrk) - [blog](https://andrewkelley.me/)
+* [Jonathan Marler](https://github.com/marler8997) - [blog](https://marler8997.github.io/)
 * [Hejsil](https://github.com/Hejsil) - [blog](https://hejsil.github.io/)
-* [tigerbeetle](https://github.com/tigerbeetle/tigerbeetle) - [blog](https://tigerbeetle.com/blog)  
-* [Hexops](https://github.com/hexops) - [blog](https://hexops.com/)  
-* [Validark](https://github.com/Validark) - [blog](https://validark.github.io/)  
-* [Jonathan Marler](https://github.com/marler8997) - [blog](https://marler8997.github.io/)  
-
-
+* [Hexops](https://github.com/hexops) - [blog](https://hexops.com/)
+* [Karl Seguin](https://www.github.com/karlseguin) - [blog](https://www.openmymind.net)
+* [Loris Cro](https://github.com/kristoff-it) - [blog](https://kristoff.it/)
+* [tigerbeetle](https://github.com/tigerbeetle/tigerbeetle) - [blog](https://tigerbeetle.com/blog)
+* [Validark](https://github.com/Validark) - [blog](https://validark.github.io/)
 
 ## Tutorials & Workshop Materials
 
