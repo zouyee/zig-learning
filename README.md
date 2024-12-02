@@ -253,7 +253,9 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 
 #### Comptime
 
-* :star: [Zig Programming Language Blurs the Line Between Compile-Time and Run-Time](https://andrewkelley.me/post/zig-programming-language-blurs-line-compile-time-run-time.html) - Andrew Kelley  
+* :star: [Zig Programming Language Blurs the Line Between Compile-Time and Run-Time](https://andrewkelley.me/post/zig-programming-language-blurs-line-compile-time-run-time.html) - Andrew Kelley
+* :star: [Conditionally Disabling Code with Comptime in Zig](https://mitchellh.com/writing/zig-comptime-conditional-disable) - [Mitchell Hashimoto](https://mitchellh.com/)
+* :star: [Tagged Union Subsets with Comptime in Zig](https://mitchellh.com/writing/zig-comptime-tagged-union-subset) - [Mitchell Hashimoto](https://mitchellh.com/)
 * [What is `comptime`?](https://kristoff.it/blog/what-is-zig-comptime/) - [Loris Cro](https://kristoff.it/)
 * [Compile-time Programming: A Beginner's Guide to `comptime` in Zig](https://cherel.dev/blog/zig-compiletime-guide/) - Guillaume Chérel
 
@@ -317,6 +319,7 @@ Do you want to find out why some historical decisions took place? [Zig GitHub Di
 * [Loris Cro](https://github.com/kristoff-it) - [blog](https://kristoff.it/)
 * [tigerbeetle](https://github.com/tigerbeetle/tigerbeetle) - [blog](https://tigerbeetle.com/blog)
 * [Validark](https://github.com/Validark) - [blog](https://validark.github.io/)
+* [Mitchell Hashimoto](https://github.com/mitchellh) - [blog](https://mitchellh.com/)
 
 ## Tutorials & Workshop Materials
 
