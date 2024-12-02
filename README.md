@@ -87,7 +87,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 * :star: [Zig By Example](https://ziglang.org/learn/samples/)
 * [Why your first FizzBuzz implementation may not work](https://zig.guide/posts/fizz-buzz/)
 * :star: [Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one](https://github.com/oven-sh/bun) - [Brian Anderson][]
-* :start: [Building an HTTP client/server from scratch](https://blog.orhun.dev/zig-bits-04/) - A practical guide to building a web server in Zig.
+* :star: [Building an HTTP client/server from scratch](https://blog.orhun.dev/zig-bits-04/) - A practical guide to building a web server in Zig.
 * [Writing a struct deserializer with Zig metaprogramming](https://nathancraddock.com/blog/deserialization-with-zig-metaprogramming/)
 
 ## Best Practices/Style Guides
