@@ -25,6 +25,6 @@ You can also apply to become a maintainer by submitting a PR.
 
 ## Reporting issues
 
-Please open an issue if you would like to discuss anything that could be improved or have suggestions for making the list a more valuable resource. 
+Please open an issue if you would like to discuss anything that could be improved or have suggestions for making the list a more valuable resource.
 
 Thank you for your suggestions!

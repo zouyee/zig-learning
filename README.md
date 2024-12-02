@@ -56,7 +56,6 @@ The main documentation is always the best beginning, so if you haven't read it y
 * :star: [Zig by Example](https://zigbyexample.com) - A hands-on guide with examples to learn Zig.
 * :star: [zig-cookbook](https://cookbook.ziglang.cc/) - Simple Zig programs that demonstrate good practices to accomplish common programming tasks.
 
-
 ## Videos
 
 * :star: [Introduction to Zig](https://www.youtube.com/watch?v=YXrb-DqsBNU&list=PLV9VPfCMjvoAkgrPTuGCoRnelFwlKXyTS) - A video introduction to Zig and its features.
@@ -65,21 +64,16 @@ The main documentation is always the best beginning, so if you haven't read it y
 * :star:[Is 2024 The Year Of Zig ?](https://www.youtube.com/watch?v=DucriSA8ukw)
 * [Advent of Code 2023 in Zig](https://www.youtube.com/watch?v=HftiNZwMdzY)
 
-
 ### Playlists
 
 * :star:[Zig Programming Language](https://www.youtube.com/playlist?list=PLV9VPfCMjvoAkgrPTuGCoRnelFwlKXyTS)
 
-
 ### Presentations
-
 
 * 2023-10-04 - [Rust & Zig Combined • Richard Feldman • GOTO 2023](https://www.youtube.com/watch?v=jIZpKpLCOiU) - Richard Feldman
 * 2022-10-04 - [Intro to the Zig Programming Language • Andrew Kelley • GOTO 2022](https://www.youtube.com/watch?v=YXrb-DqsBNU)- Andrew Kelley
 * 2019-04-23 - [Andrew Kelley - The Zen of Zig](https://www.youtube.com/watch?v=Gv2I7qTux7g) - A presentation by the creator of Zig, explaining its philosophy and features.
 * 2024-09-30 - [Pragma driven shared memory parallelism in Zig by supporting OpenMP loop directives](https://arxiv.org/html/2409.20148v1) - In this paper they describe enhancing the Zig compiler to add support for OpenMP loop directives.
-
-
 
 ## Podcasts
 
@@ -121,15 +115,11 @@ The main documentation is always the best beginning, so if you haven't read it y
 * [Community Zig Tutorials](https://zig.news/) - A portal for discovering new Zig tutorials and community-driven content.
 * [Zig Memory Management Guide](https://ziglang.org/documentation/master/#Memory) - Useful tips and tricks for managing memory safely and efficiently in Zig.
 
-
-
 ## Zig internals
 
 * :star: [Zig Proposals](https://github.com/ziglang/zig/issues?q=is%3Aissue++label%3Aproposal+) - A collection of Zig’s proposed RFCs (Request for Comments) for proposals.
 * :star: [Zig Documentation](https://ziglang.org/documentation/master/) - The official and comprehensive documentation for understanding Zig’s features and syntax.
 * :star: [Zig Community Forum](https://ziggit.dev/) - A discussion platform for Zig language design, development news, and technical questions.
-
-
 
 ## Compilation
 
@@ -142,8 +132,6 @@ The main documentation is always the best beginning, so if you haven't read it y
 - **[Zig: Cross-compiling for Systems](https://zig.news/kristoff/cross-compile-a-c-c-project-with-zig-3599)** - A blog post that explores how Zig can be used for multi-systems, Cross-compilation is especially great when you need to release an application that runs on multiple platforms: with Zig you can create all release artifacts from a single machine.
 
 - **[Compile Cargo project with zig](https://github.com/rust-cross/cargo-zigbuild)** - It is a tool that facilitates building Rust projects with the Zig toolchain, enabling cross-compilation and optimizations that are typically more straightforward than using Rust's native toolchain alone.  
-
-
 
 ## FFI
 
@@ -158,8 +146,6 @@ The main documentation is always the best beginning, so if you haven't read it y
 - **[Integrating Zig with Rust for FFI](https://dev.to/mustafif/using-zig-in-rust-160p)** - A tutorial on how to create a Rust-Zig integration, using Zig’s FFI to enhance performance or utilize Zig’s unique features.
 
 - **[Building and Linking C Libraries with Zig](https://zig.news/almmiko/building-zig-libraries-with-c-dependencies-25a)** - This ZigLearn chapter shows how to use and link C libraries with Zig, which is helpful when creating bindings or using external C code in a Zig project.
-
-
 
 ## CI / Testing
 
@@ -187,8 +173,6 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 - **[Code Coverage for Zig](https://zig.news/squeek502/code-coverage-for-zig-1dk1)** - Despite the Zig compiler not having built-in support for generating code coverage information, it is still possible to generate it (on Linux at least). There might be other possibilities.
 
-
-
 ## Are we ... yet?
 
 - **[Are We IDE Yet? - Zig](https://ziglang.org/learn/tools/)** - An overview of current IDE support for Zig. It lists plugins and extensions for popular editors like VSCode, Sublime Text, and Vim, tracking the maturity of the Zig developer experience.
@@ -201,11 +185,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 - **[Zig GUI Libraries](https://github.com/capy-ui/capy)** - Capy is a **GUI library for Zig**. It is mainly intended for creating applications using native controls from the operating system. It has been made with the goal to empower standalone UI applications, integration in games or any other rendering process is a non-goal.
 
-
-
 ### Zig Comparison with Other Languages
-
----
 
 | **Languages**  | **Links**                                                    |
 | -------------- | ------------------------------------------------------------ |
@@ -300,8 +280,6 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * [Proposal: Optional argument names in function calls](https://github.com/ziglang/zig/issues/982)
 * [Ziglang Document:Optionals](https://ziglang.org/documentation/master/#Optionals)
 
-
-
 ## Playground
 
 * [Zig Playground](https://zig-play.dev/)
@@ -321,7 +299,7 @@ Do you want to meet them IRL? [Community](https://github.com/ziglang/zig/wiki/Co
 
 Go to Ziguanas events? [Zig SHOWTIME](https://zig.show/), [Zig conferences and events](https://zig.news/t/conference)
 
-Are you looking for a job? [Zig Jobs on Indeed](https://www.indeed.com/q-zig-programming-jobs.html),
+Are you looking for a job? [Zig Jobs on Indeed](https://www.indeed.com/q-zig-programming-jobs.html)
 
 Are you fast, simple, and focused? [Find something Ziggy to work on!](https://github.com/ziglang/zig/issues)
 
@@ -353,6 +331,3 @@ of interest if you're running a workshop on Zig.
 - orhun's [Zig Bits](https://blog.orhun.dev/zig-bits-01/) focusing on practical library implementation in Zig.  
 - [A half-hour to learn Zig](https://gist.github.com/ityonemo/769532c2017ed9143f3571e5ac104e50) 
 - [A Unix Shell in Zig](https://ratfactor.com/zig/forking-is-cool) exploration combining Zig with scripting tools.  
-
-
-
