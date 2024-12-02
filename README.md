@@ -56,7 +56,6 @@ The main documentation is always the best beginning, so if you haven't read it y
 * :star: [Zig by Example](https://zigbyexample.com) - A hands-on guide with examples to learn Zig.
 * :star: [zig-cookbook](https://cookbook.ziglang.cc/) - Simple Zig programs that demonstrate good practices to accomplish common programming tasks.
 
-
 ## Videos
 
 * :star: [Introduction to Zig](https://www.youtube.com/watch?v=YXrb-DqsBNU&list=PLV9VPfCMjvoAkgrPTuGCoRnelFwlKXyTS) - A video introduction to Zig and its features.
@@ -65,21 +64,16 @@ The main documentation is always the best beginning, so if you haven't read it y
 * :star:[Is 2024 The Year Of Zig ?](https://www.youtube.com/watch?v=DucriSA8ukw)
 * [Advent of Code 2023 in Zig](https://www.youtube.com/watch?v=HftiNZwMdzY)
 
-
 ### Playlists
 
 * :star:[Zig Programming Language](https://www.youtube.com/playlist?list=PLV9VPfCMjvoAkgrPTuGCoRnelFwlKXyTS)
 
-
 ### Presentations
-
 
 * 2023-10-04 - [Rust & Zig Combined • Richard Feldman • GOTO 2023](https://www.youtube.com/watch?v=jIZpKpLCOiU) - Richard Feldman
 * 2022-10-04 - [Intro to the Zig Programming Language • Andrew Kelley • GOTO 2022](https://www.youtube.com/watch?v=YXrb-DqsBNU)- Andrew Kelley
 * 2019-04-23 - [Andrew Kelley - The Zen of Zig](https://www.youtube.com/watch?v=Gv2I7qTux7g) - A presentation by the creator of Zig, explaining its philosophy and features.
 * 2024-09-30 - [Pragma driven shared memory parallelism in Zig by supporting OpenMP loop directives](https://arxiv.org/html/2409.20148v1) - In this paper they describe enhancing the Zig compiler to add support for OpenMP loop directives.
-
-
 
 ## Podcasts
 
@@ -94,14 +88,13 @@ The main documentation is always the best beginning, so if you haven't read it y
 * [Why your first FizzBuzz implementation may not work](https://zig.guide/posts/fizz-buzz/)
 * :star: [Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one](https://github.com/oven-sh/bun) - [Brian Anderson][]
 * :start: [Building an HTTP client/server from scratch](https://blog.orhun.dev/zig-bits-04/) - A practical guide to building a web server in Zig.
-* [Real-World Zig: A Case Study](https://abduzeedo.com/zig-case-study-rga) - A case study of using Zig in production.
 * [Writing a struct deserializer with Zig metaprogramming](https://nathancraddock.com/blog/deserialization-with-zig-metaprogramming/)
 
 ## Best Practices/Style Guides
 
 * :star: [Zig Design Patterns](https://github.com/SuperAuguste/zig-patterns)
 * :star: [zig-common-tasks](https://renatoathaydes.github.io/zig-common-tasks/) - [renatoathaydes](https://github.com/renatoathaydes)
-* :star: [Zig API guidelines](https://ziglang.org/documentation/master/) 
+* :star: [Zig API guidelines](https://ziglang.org/documentation/master/)
 * [Reading Zig Function Signatures](https://zig.news/v142857/impl-on-userland-is-quite-easy-actually-13p3) - [Val][]
 * [Good Practices for consuming C libraries](https://ziggit.dev/t/best-practices-for-consuming-c-libraries/6819) - [cztomsik](https://ziggit.dev/u/cztomsik)
 * [Zig Bits](https://blog.orhun.dev/zig-bits-04/)
@@ -122,91 +115,77 @@ The main documentation is always the best beginning, so if you haven't read it y
 * [Community Zig Tutorials](https://zig.news/) - A portal for discovering new Zig tutorials and community-driven content.
 * [Zig Memory Management Guide](https://ziglang.org/documentation/master/#Memory) - Useful tips and tricks for managing memory safely and efficiently in Zig.
 
-
-
 ## Zig internals
 
 * :star: [Zig Proposals](https://github.com/ziglang/zig/issues?q=is%3Aissue++label%3Aproposal+) - A collection of Zig’s proposed RFCs (Request for Comments) for proposals.
 * :star: [Zig Documentation](https://ziglang.org/documentation/master/) - The official and comprehensive documentation for understanding Zig’s features and syntax.
 * :star: [Zig Community Forum](https://ziggit.dev/) - A discussion platform for Zig language design, development news, and technical questions.
 
-
-
 ## Compilation
 
-- [Zig Compilation Guide](https://ziglang.org/learn/build-system/) - Zig official documentation. This guide provides detailed information on how to set up compilation with Zig. It includes basic steps, toolchain setup, and target options.
+* [Zig Compilation Guide](https://ziglang.org/learn/build-system/) - Zig official documentation. This guide provides detailed information on how to set up compilation with Zig. It includes basic steps, toolchain setup, and target options.
 
-- **[Zig for Raspberry Pi](https://github.com/markfirmware/zig-bare-metal-raspberry-pi)** - A community-driven project that shows how to cross-compile Zig programs for the Raspberry Pi, with a setup for cross-compiling Zig on Linux.
+* **[Zig for Raspberry Pi](https://github.com/markfirmware/zig-bare-metal-raspberry-pi)** - A community-driven project that shows how to cross-compile Zig programs for the Raspberry Pi, with a setup for cross-compiling Zig on Linux.
 
-- **[Zig Cross Compilation for macOS](https://github.com/shepherdjerred/macos-cross-compiler)** - This project allows you to cross-compile code on Linux that will be executed on macOS.
+* **[Zig Cross Compilation for macOS](https://github.com/shepherdjerred/macos-cross-compiler)** - This project allows you to cross-compile code on Linux that will be executed on macOS.
 
-- **[Zig: Cross-compiling for Systems](https://zig.news/kristoff/cross-compile-a-c-c-project-with-zig-3599)** - A blog post that explores how Zig can be used for multi-systems, Cross-compilation is especially great when you need to release an application that runs on multiple platforms: with Zig you can create all release artifacts from a single machine.
+* **[Zig: Cross-compiling for Systems](https://zig.news/kristoff/cross-compile-a-c-c-project-with-zig-3599)** - A blog post that explores how Zig can be used for multi-systems, Cross-compilation is especially great when you need to release an application that runs on multiple platforms: with Zig you can create all release artifacts from a single machine.
 
-- **[Compile Cargo project with zig](https://github.com/rust-cross/cargo-zigbuild)** - It is a tool that facilitates building Rust projects with the Zig toolchain, enabling cross-compilation and optimizations that are typically more straightforward than using Rust's native toolchain alone.  
-
-
+* **[Compile Cargo project with zig](https://github.com/rust-cross/cargo-zigbuild)** - It is a tool that facilitates building Rust projects with the Zig toolchain, enabling cross-compilation and optimizations that are typically more straightforward than using Rust's native toolchain alone.  
 
 ## FFI
 
-- **[Using Zig with C: Interop Guide](https://ziglang.org/documentation/master/#C-interop)** - The official Zig documentation for C interop. Zig provides seamless integration with C, allowing you to call C functions directly and link against C libraries without needing additional tooling.
+* **[Using Zig with C: Interop Guide](https://ziglang.org/documentation/master/#C-interop)** - The official Zig documentation for C interop. Zig provides seamless integration with C, allowing you to call C functions directly and link against C libraries without needing additional tooling.
 
-- **[Zig and Node.js: Writing Native Modules](https://github.com/staltz/zig-nodejs-example)** - A GitHub issue tracking the integration of Zig with Node.js for native modules. It discusses potential setups for creating fast, native Node.js modules using Zig.
+* **[Zig and Node.js: Writing Native Modules](https://github.com/staltz/zig-nodejs-example)** - A GitHub issue tracking the integration of Zig with Node.js for native modules. It discusses potential setups for creating fast, native Node.js modules using Zig.
 
-- **[Cross-compiling Zig for Mobile Platforms (Android/iOS)](https://github.com/andrewrk/sdl-zig-demo)** - A tutorial by Andrew Kelley on cross-compiling Zig for Android, including setup instructions and guidance on building shared libraries. Though there isn't a direct iOS equivalent yet, the process can be adapted similarly.
+* **[Cross-compiling Zig for Mobile Platforms (Android/iOS)](https://github.com/andrewrk/sdl-zig-demo)** - A tutorial by Andrew Kelley on cross-compiling Zig for Android, including setup instructions and guidance on building shared libraries. Though there isn't a direct iOS equivalent yet, the process can be adapted similarly.
 
-- **[Zig and Dynamic Libraries: Working with .so and .dll](https://ziggit.dev/t/zig-to-zig-dynamic-libraries-modules/6775)** - A blog post that explores how to build dynamic libraries (.so and .dll) using Zig. This is particularly useful when you need to create shared libraries for FFI purposes.
+* **[Zig and Dynamic Libraries: Working with .so and .dll](https://ziggit.dev/t/zig-to-zig-dynamic-libraries-modules/6775)** - A blog post that explores how to build dynamic libraries (.so and .dll) using Zig. This is particularly useful when you need to create shared libraries for FFI purposes.
 
-- **[Integrating Zig with Rust for FFI](https://dev.to/mustafif/using-zig-in-rust-160p)** - A tutorial on how to create a Rust-Zig integration, using Zig’s FFI to enhance performance or utilize Zig’s unique features.
+* **[Integrating Zig with Rust for FFI](https://dev.to/mustafif/using-zig-in-rust-160p)** - A tutorial on how to create a Rust-Zig integration, using Zig’s FFI to enhance performance or utilize Zig’s unique features.
 
-- **[Building and Linking C Libraries with Zig](https://zig.news/almmiko/building-zig-libraries-with-c-dependencies-25a)** - This ZigLearn chapter shows how to use and link C libraries with Zig, which is helpful when creating bindings or using external C code in a Zig project.
-
-
+* **[Building and Linking C Libraries with Zig](https://zig.news/almmiko/building-zig-libraries-with-c-dependencies-25a)** - This ZigLearn chapter shows how to use and link C libraries with Zig, which is helpful when creating bindings or using external C code in a Zig project.
 
 ## CI / Testing
 
-- **[Setting up Zig with GitHub Actions](https://github.com/marketplace/actions/setup-zig-compiler)** - A detailed guide on using GitHub Actions for Zig projects. It covers basic configurations for running tests and building Zig code on different platforms.
+* **[Setting up Zig with GitHub Actions](https://github.com/marketplace/actions/setup-zig-compiler)** - A detailed guide on using GitHub Actions for Zig projects. It covers basic configurations for running tests and building Zig code on different platforms.
 
-- **[Using Zig with Travis CI](https://codelv.com/blog/2020/4/testing-a-zig-project-with-travis-ci)** - While less common than GitHub Actions, some legacy projects still use Travis CI. Zig's documentation includes pointers on setting up Travis CI for Zig builds.
+* **[Using Zig with Travis CI](https://codelv.com/blog/2020/4/testing-a-zig-project-with-travis-ci)** - While less common than GitHub Actions, some legacy projects still use Travis CI. Zig's documentation includes pointers on setting up Travis CI for Zig builds.
 
-- **[Fuzz Testing in Zig](https://github.com/ziglang/zig/issues/20702)** - Official announcement detailing Zig's built-in support for fuzz testing introduced in Zig 0.14. It includes how to use the fuzz testing features and examples of detecting bugs in Zig applications.
+* **[Fuzz Testing in Zig](https://github.com/ziglang/zig/issues/20702)** - Official announcement detailing Zig's built-in support for fuzz testing introduced in Zig 0.14. It includes how to use the fuzz testing features and examples of detecting bugs in Zig applications.
 
-- **[Test Coverage for Zig Projects](https://github.com/ziglang/zig/issues/5212)** - A GitHub issue discussing ideas and strategies for implementing test coverage in Zig. Though Zig doesn’t have built-in support for test coverage yet, there are community-driven approaches and tools you can try.
+* **[Test Coverage for Zig Projects](https://github.com/ziglang/zig/issues/5212)** - A GitHub issue discussing ideas and strategies for implementing test coverage in Zig. Though Zig doesn’t have built-in support for test coverage yet, there are community-driven approaches and tools you can try.
 
-- **[Beautiful Commits and Code Formatting with zig fmt](https://lewisgaul.co.uk/blog/coding/2021/03/02/first-zig-contribution/)** - Zig comes with a built-in formatter, `zig fmt`, to ensure consistent code style. You can integrate this into your CI setup to enforce formatting rules automatically.
+* **[Beautiful Commits and Code Formatting with zig fmt](https://lewisgaul.co.uk/blog/coding/2021/03/02/first-zig-contribution/)** - Zig comes with a built-in formatter, `zig fmt`, to ensure consistent code style. You can integrate this into your CI setup to enforce formatting rules automatically.
 
-- **[Performance Testing in Zig](https://github.com/ziglang/gotta-go-fast)** - This project exists to track various benchmarks related to the Zig project regarding execution speed, memory usage, throughput, and other resource utilization statistics.
+* **[Performance Testing in Zig](https://github.com/ziglang/gotta-go-fast)** - This project exists to track various benchmarks related to the Zig project regarding execution speed, memory usage, throughput, and other resource utilization statistics.
 
-- **[Zig Test Documentation](https://ziglang.org/documentation/master/#Zig-Test)** - Zig’s documentation on writing and running tests. It provides an overview of Zig's testing features, including test declarations, assertions, and running tests as part of your CI pipeline.
+* **[Zig Test Documentation](https://ziglang.org/documentation/master/#Zig-Test)** - Zig’s documentation on writing and running tests. It provides an overview of Zig's testing features, including test declarations, assertions, and running tests as part of your CI pipeline.
 
 ## Debug / Profiling
 
-- **[Zig Debugging with vscode](https://gist.github.com/floooh/31143278a0c0bae4f38b8722a8a98463)** - A gist about using vscode for debugging Zig programs. 
+* **[Zig Debugging with vscode](https://gist.github.com/floooh/31143278a0c0bae4f38b8722a8a98463)** - A gist about using vscode for debugging Zig programs.
 
-- **[Zig on Compiler Explorer](https://godbolt.org/)** - Like Rust's Compiler Explorer, Zig is also supported on Compiler Explorer. You can use this to explore Zig code as assembly and view the generated machine code. Simply select Zig as the compiler on the site.
+* **[Zig on Compiler Explorer](https://godbolt.org/)** - Like Rust's Compiler Explorer, Zig is also supported on Compiler Explorer. You can use this to explore Zig code as assembly and view the generated machine code. Simply select Zig as the compiler on the site.
 
-- **[Zig Performance Tracking](https://ziglang.org/perf/)** - This project exists to *track various benchmarks related to the Zig project* regarding execution speed, memory usage, throughput, and other resource.
+* **[Zig Performance Tracking](https://ziglang.org/perf/)** - This project exists to *track various benchmarks related to the Zig project* regarding execution speed, memory usage, throughput, and other resource.
 
-- **[Code Coverage for Zig](https://zig.news/squeek502/code-coverage-for-zig-1dk1)** - Despite the Zig compiler not having built-in support for generating code coverage information, it is still possible to generate it (on Linux at least). There might be other possibilities.
-
-
+* **[Code Coverage for Zig](https://zig.news/squeek502/code-coverage-for-zig-1dk1)** - Despite the Zig compiler not having built-in support for generating code coverage information, it is still possible to generate it (on Linux at least). There might be other possibilities.
 
 ## Are we ... yet?
 
-- **[Are We IDE Yet? - Zig](https://ziglang.org/learn/tools/)** - An overview of current IDE support for Zig. It lists plugins and extensions for popular editors like VSCode, Sublime Text, and Vim, tracking the maturity of the Zig developer experience.
+* **[Are We IDE Yet? - Zig](https://ziglang.org/learn/tools/)** - An overview of current IDE support for Zig. It lists plugins and extensions for popular editors like VSCode, Sublime Text, and Vim, tracking the maturity of the Zig developer experience.
 
-- **[Are We Game Yet? - Zig](https://github.com/zig-gamedev/zig-gamedev)** -  It explores libraries, game engines, and Zig's capabilities for game-related projects.
+* **[Are We Game Yet? - Zig](https://github.com/zig-gamedev/zig-gamedev)** -  It explores libraries, game engines, and Zig's capabilities for game-related projects.
 
-- **[Are We Async Yet? - Zig](https://ziglang.org/documentation/master/#Async)** - Zig's official documentation on asynchronous programming. Zig is still developing its async features, but this section provides an in-depth look at the current state and future goals for asynchronous execution.
+* **[Are We Async Yet? - Zig](https://ziglang.org/documentation/master/#Async)** - Zig's official documentation on asynchronous programming. Zig is still developing its async features, but this section provides an in-depth look at the current state and future goals for asynchronous execution.
 
-- **[Awesome Zig](https://github.com/C-BJ/awesome-zig)** - A comprehensive list of curated resources for Zig, covering libraries, tools, tutorials, and more. It's similar to "Not-Yet-Awesome Rust," helping developers find or contribute to Zig projects.
+* **[Awesome Zig](https://github.com/C-BJ/awesome-zig)** - A comprehensive list of curated resources for Zig, covering libraries, tools, tutorials, and more. It's similar to "Not-Yet-Awesome Rust," helping developers find or contribute to Zig projects.
 
-- **[Zig GUI Libraries](https://github.com/capy-ui/capy)** - Capy is a **GUI library for Zig**. It is mainly intended for creating applications using native controls from the operating system. It has been made with the goal to empower standalone UI applications, integration in games or any other rendering process is a non-goal.
-
-
+* **[Zig GUI Libraries](https://github.com/capy-ui/capy)** - Capy is a **GUI library for Zig**. It is mainly intended for creating applications using native controls from the operating system. It has been made with the goal to empower standalone UI applications, integration in games or any other rendering process is a non-goal.
 
 ### Zig Comparison with Other Languages
-
----
 
 | **Languages**  | **Links**                                                    |
 | -------------- | ------------------------------------------------------------ |
@@ -249,7 +228,7 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 ### Errors
 
 * :star: [Ziglang Document:Errors](https://ziglang.org/documentation/master/#Errors) ziglang.org
-* [Error Handling in Zig](https://zig.guide/language-basics/errors/) - zig.guide 
+* [Error Handling in Zig](https://zig.guide/language-basics/errors/) - zig.guide
 * [Support error sets in switch cases](https://github.com/ziglang/zig/issues/2473) -  [hryx](https://github.com/hryx)
 * [Return Values and Error Unions in Zig](https://gencmurat.com/en/posts/advanced-guide-to-return-values-and-error-unions-in-zig/) - gencmurat  
 * [Error Handling In Zig](https://www.aolium.com/karlseguin/4013ac14-2457-479b-e59b-e603c04673c8) - [karlseguin](https://www.aolium.com/karlseguin)
@@ -259,13 +238,13 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 
 * :star:[proposal: Streamline loops, and enhance iteration](https://github.com/ziglang/zig/issues/3110) - [Tetralux](https://github.com/Tetralux)
 * :star:[Proposal: Generator / Iterator Syntactic Sugar](https://github.com/ziglang/zig/issues/5331) -  [kayomn](https://github.com/kayomn)
-* [How Zig Handles Iteration](https://zig.guide/standard-library/iterators/) - zig.guide 
+* [How Zig Handles Iteration](https://zig.guide/standard-library/iterators/) - zig.guide
 * [Zig's Curious Multi-Sequence For Loops](https://kristoff.it/blog/zig-multi-sequence-for-loops/) - Loris Cro  
 * [Learning interfaces by implementing iterator in zig](https://zig.news/akhildevelops/learning-interfaces-by-implementing-iterator-in-zig-3do1) - [Akhil](https://zig.news/akhildevelops)  
 
 ### Memory
 
-* :star: [Memory Management in Zig: A Lifetime-Free Approach](https://andrewkelley.me/post/memory-management-in-zig.html) - Andrew Kelley 
+* :star: [Memory Management in Zig: A Lifetime-Free Approach](https://andrewkelley.me/post/memory-management-in-zig.html) - Andrew Kelley
 * :star:[Memory Management in Zig](https://ziglang.org/documentation/master/#Memory) - ziglang documentation
 * [Memory Management With Zig](https://www.nmichaels.org/musings/zig/memory/) - Nathan
 * [How (memory) safe is zig?](https://www.scattered-thoughts.net/writing/how-safe-is-zig/) - [Jamie Brandon](https://github.com/jamii/)
@@ -276,7 +255,7 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 
 * :star: [Zig Programming Language Blurs the Line Between Compile-Time and Run-Time](https://andrewkelley.me/post/zig-programming-language-blurs-line-compile-time-run-time.html) - Andrew Kelley  
 * [What is `comptime`?](https://kristoff.it/blog/what-is-zig-comptime/) - [Loris Cro](https://kristoff.it/)
-* [Compile-time Programming: A Beginner's Guide to `comptime` in Zig](https://cherel.dev/blog/zig-compiletime-guide/) - Guillaume Chérel 
+* [Compile-time Programming: A Beginner's Guide to `comptime` in Zig](https://cherel.dev/blog/zig-compiletime-guide/) - Guillaume Chérel
 
 * [Custom String Formatting and JSON Serializing in Zig](https://www.openmymind.net/Custom-String-Formatting-And-JSON-in-Zig/) - Karl Seguin
 * [Exploring Compile-Time Interfaces in Zig](https://medium.com/@jerrythomas_in/exploring-compile-time-interfaces-in-zig-5c1a1a9e59fd) - [Jerry Thomas](https://medium.com/@jerrythomas)
@@ -297,11 +276,9 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 
 ### Optional
 
-* [What's up with Zig's Optionals?](https://www.reddit.com/r/ProgrammingLanguages/comments/1bn2i58/whats_up_with_zigs_optionals/) - Reddit 
+* [What's up with Zig's Optionals?](https://www.reddit.com/r/ProgrammingLanguages/comments/1bn2i58/whats_up_with_zigs_optionals/) - Reddit
 * [Proposal: Optional argument names in function calls](https://github.com/ziglang/zig/issues/982)
 * [Ziglang Document:Optionals](https://ziglang.org/documentation/master/#Optionals)
-
-
 
 ## Playground
 
@@ -322,7 +299,7 @@ Do you want to meet them IRL? [Community](https://github.com/ziglang/zig/wiki/Co
 
 Go to Ziguanas events? [Zig SHOWTIME](https://zig.show/), [Zig conferences and events](https://zig.news/t/conference)
 
-Are you looking for a job? [Zig Jobs on Indeed](https://www.indeed.com/q-zig-programming-jobs.html),
+Are you looking for a job? [Zig Jobs on Indeed](https://www.indeed.com/q-zig-programming-jobs.html)
 
 Are you fast, simple, and focused? [Find something Ziggy to work on!](https://github.com/ziglang/zig/issues)
 
@@ -347,13 +324,10 @@ These are slides and materials from brick-and-mortar workshops about Zig.
 While they're unlikely to help a student learning independently, they may be
 of interest if you're running a workshop on Zig.
 
-- Loris Cro's [Ziglings](https://github.com/ratfactor/ziglings), a series of small exercises introducing Zig syntax and concepts interactively.  
-- [Zig SHOWTIME Videos](https://zig.show/) featuring tutorials and real-world examples from the Zig community.  
-- sleibrock' [Zig and WebAssembly Tutorial](https://dev.to/sleibrock/webassembly-with-zig-part-1-4onm) covering Zig's use in modern WebAssembly projects.  
-- [Zig Advent Calendar](https://effectivetypescript.com/2024/07/17/advent2023-zig/) offering a curated set of beginner to advanced Zig tutorials and exercises.  
-- orhun's [Zig Bits](https://blog.orhun.dev/zig-bits-01/) focusing on practical library implementation in Zig.  
-- [A half-hour to learn Zig](https://gist.github.com/ityonemo/769532c2017ed9143f3571e5ac104e50) 
-- [A Unix Shell in Zig](https://ratfactor.com/zig/forking-is-cool) exploration combining Zig with scripting tools.  
-
-
-
+* Loris Cro's [Ziglings](https://github.com/ratfactor/ziglings), a series of small exercises introducing Zig syntax and concepts interactively.  
+* [Zig SHOWTIME Videos](https://zig.show/) featuring tutorials and real-world examples from the Zig community.  
+* sleibrock' [Zig and WebAssembly Tutorial](https://dev.to/sleibrock/webassembly-with-zig-part-1-4onm) covering Zig's use in modern WebAssembly projects.  
+* [Zig Advent Calendar](https://effectivetypescript.com/2024/07/17/advent2023-zig/) offering a curated set of beginner to advanced Zig tutorials and exercises.  
+* orhun's [Zig Bits](https://blog.orhun.dev/zig-bits-01/) focusing on practical library implementation in Zig.  
+* [A half-hour to learn Zig](https://gist.github.com/ityonemo/769532c2017ed9143f3571e5ac104e50) this is inspired by [a-half-hour-to-learn-rust](https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/)
+* [A Unix Shell in Zig](https://ratfactor.com/zig/forking-is-cool) exploration combining Zig with scripting tools.
