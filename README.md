@@ -108,6 +108,10 @@ The main documentation is always the best beginning, so if you haven't read it y
 * :star: [Syntax Index](https://ziglang.org/documentation/master/) - Official documentation covering Zig's syntax and key concepts.
 * [Zig Learn](https://ziglearn.org/) - A community-maintained guide for beginners, offering an introduction to Zig's core features with practical examples.
 * [Zig by Example](https://zig-by-example.com/) - A collection of simple and concise Zig code examples for learning and reference.
+* [Zig by Example on `GitHub.io`](https://web.archive.org/web/20230814195616/https://zigbyexample.github.io/) - 
+  How to use Zig's Standard Library, by simple and small examples.  
+  <sub>Deprecated since [Nov 11, 2023](https://github.com/zigbyexample/zigbyexample.github.io/commit/bab3610#diff-b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5),
+  still a quality content.</sub> <p/>
 * [Zig Standard Library Overview](https://ziglang.org/documentation/master/std/) - A detailed overview of Zig’s standard library, ideal for understanding built-in utilities and functions.
 * [Zig Cheat Sheet](https://gist.github.com/jdmichaud/b75ee234bfa87283a6337e06a3b70767) - A handy reference guide with key Zig programming concepts and syntax patterns, created by a Zig community member.
 * [Zig Language Patterns](https://github.com/SuperAuguste/zig-patterns) - Best practices and design patterns written by Andrew Kelley, the creator of Zig.
