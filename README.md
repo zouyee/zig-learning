@@ -77,29 +77,30 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ## Podcasts
 
-* 2024-07-14 - [Zig as a Multi-OS Build System (with Loris Cro)](https://open.spotify.com/episode/1CKAVEQfS0aVWV5GuT96AF) - [ Loris Cro][]
+* 2024-07-14 - [Zig as a Multi-OS Build System (with Loris Cro)](https://open.spotify.com/episode/1CKAVEQfS0aVWV5GuT96AF) - Loris Cro
 * 2022-07-01 - [Full-Time Open Source With Andrew Kelley](https://corecursive.com/067-zig-with-andrew-kelley/)
 * 2022-06-24 - [Zig with Andrew Kelley](https://rustacean-station.org/episode/andrew-kelley/)
-* 2022-01-24 - [Zig and Zigler with Isaac Yonemoto](https://podcast.thinkingelixir.com/83) - [Isaac Yonemoto][]
+* 2022-01-24 - [Zig and Zigler with Isaac Yonemoto](https://podcast.thinkingelixir.com/83) - Isaac Yonemoto
 
 ## Zig in practice
 
 * :star: [Zig By Example](https://ziglang.org/learn/samples/)
 * [Why your first FizzBuzz implementation may not work](https://zig.guide/posts/fizz-buzz/)
-* :star: [Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one](https://github.com/oven-sh/bun) - [Brian Anderson][]
+* :star: [Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one](https://github.com/oven-sh/bun) - Brian Anderson
 * :star: [Building an HTTP client/server from scratch](https://blog.orhun.dev/zig-bits-04/) - A practical guide to building a web server in Zig.
 * [Writing a struct deserializer with Zig metaprogramming](https://nathancraddock.com/blog/deserialization-with-zig-metaprogramming/)
+* [Starting a new game dev project](https://www.youtube.com/watch?v=YiuCltFZldk) - A practical guide to building a new game dev project
 
 ## Best Practices/Style Guides
 
 * :star: [Zig Design Patterns](https://github.com/SuperAuguste/zig-patterns)
 * :star: [zig-common-tasks](https://renatoathaydes.github.io/zig-common-tasks/) - [renatoathaydes](https://github.com/renatoathaydes)
 * :star: [Zig API guidelines](https://ziglang.org/documentation/master/)
-* [Reading Zig Function Signatures](https://zig.news/v142857/impl-on-userland-is-quite-easy-actually-13p3) - [Val][]
+* [Reading Zig Function Signatures](https://zig.news/v142857/impl-on-userland-is-quite-easy-actually-13p3) - Val
 * [Good Practices for consuming C libraries](https://ziggit.dev/t/best-practices-for-consuming-c-libraries/6819) - [cztomsik](https://ziggit.dev/u/cztomsik)
 * [Zig Bits](https://blog.orhun.dev/zig-bits-04/)
 * [Best Practices for Structuring Zig Projects with External Dependencies](https://ziggit.dev/t/best-practices-for-structuring-zig-projects-with-external-dependencies/3723) - [castholm][]
-* [Comparing Rust vs. Zig: Performance, safety, and more](https://blog.logrocket.com/comparing-rust-vs-zig-performance-safety-more/) - [Eze][]
+* [Comparing Rust vs. Zig: Performance, safety, and more](https://blog.logrocket.com/comparing-rust-vs-zig-performance-safety-more/) - Eze
 * [Memory Safety in C++ vs Rust vs Zig](https://medium.com/@shyamsundarb/memory-safety-in-c-vs-rust-vs-zig-f78fa903f41e)
 * [A TypeScripter's Take on Zig (Advent of Code 2023)](https://effectivetypescript.com/2024/07/17/advent2023-zig/)
 
