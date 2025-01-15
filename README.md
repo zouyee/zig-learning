@@ -262,6 +262,7 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 
 * [Custom String Formatting and JSON Serializing in Zig](https://www.openmymind.net/Custom-String-Formatting-And-JSON-in-Zig/) - Karl Seguin
 * [Exploring Compile-Time Interfaces in Zig](https://medium.com/@jerrythomas_in/exploring-compile-time-interfaces-in-zig-5c1a1a9e59fd) - [Jerry Thomas](https://medium.com/@jerrythomas)
+* [Zig's Comptime is Bonkers Good](https://www.scottredig.com/blog/bonkers_comptime/) - Scott Redig
 
 ### Strings
 
