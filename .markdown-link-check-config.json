@@ -1,19 +1,16 @@
 {
-    "ignorePatterns": [
+    "httpHeaders": [
         {
-            "pattern": "^https://github.com"
-        },
-        {
-            "pattern": "^https://www.google.com"
-        },
-        {
-            "pattern": "^https://www.amazon.com"
-        },
-        {
-            "pattern": "^https://www.manning.com"
-        },
-        {
-            "pattern": "^https://web.archive.org"
+            "urls": [
+                "https://github.com/",
+                "https://guides.github.com/",
+                "https://docs.github.com/",
+                "https://help.github.com/",
+                "https://support.github.com"
+            ],
+            "headers": {
+                "Accept-Encoding": "zstd, br, gzip, deflate"
+            }
         }
     ]
 }
