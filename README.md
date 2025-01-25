@@ -21,7 +21,7 @@ The main documentation is always the best beginning, so if you haven't read it y
   * [Playlists](#playlists)
   * [Presentations](#presentations)
 * [Podcasts](#podcasts)
-* [Zig in practice](#rust-in-practice)
+* [Zig in practice](#zig-in-practice)
 * [Best Practices/Style Guides](#best-practicesstyle-guides)
 * [Cheat sheets](#cheat-sheets)
 * [Zig internals](#zig-internals)
@@ -30,7 +30,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 * [CI / Testing](#ci--testing)
 * [Debug / Profiling](#debug--profiling)
 * [Are we ... yet?](#are-we--yet)
-* [Comparison with Other Languages](#comparison-with-other-languages)
+* [Comparison with Other Languages](#zig-comparison-with-other-languages)
 * [Applications / Libraries / Tools](#applications--libraries--tools)
 * [Language stuff](#language-stuff)
   * [Closures](#closures)
@@ -42,10 +42,10 @@ The main documentation is always the best beginning, so if you haven't read it y
   * [Comptime](#comptime)
   * [Strings](#strings)
   * [Syntax extensions](#syntax-extensions)
-  * [Optionals](#optionals)
+  * [Optional](#optional)
 * [Playground](#playground)
 * [Locale links](#locale-links)
-* [People](#people)
+* [Connection](#connection)
   * [Fearless Zig Bloggers](#fearless-zig-bloggers)
 * [Tutorials & Workshop Materials](#tutorials--workshop-materials)
 
@@ -99,10 +99,11 @@ The main documentation is always the best beginning, so if you haven't read it y
 * [Reading Zig Function Signatures](https://zig.news/v142857/impl-on-userland-is-quite-easy-actually-13p3) - Val
 * [Good Practices for consuming C libraries](https://ziggit.dev/t/best-practices-for-consuming-c-libraries/6819) - [cztomsik](https://ziggit.dev/u/cztomsik)
 * [Zig Bits](https://blog.orhun.dev/zig-bits-04/)
-* [Best Practices for Structuring Zig Projects with External Dependencies](https://ziggit.dev/t/best-practices-for-structuring-zig-projects-with-external-dependencies/3723) - [castholm][]
+* [Best Practices for Structuring Zig Projects with External Dependencies](https://ziggit.dev/t/best-practices-for-structuring-zig-projects-with-external-dependencies/3723) - castholm
 * [Comparing Rust vs. Zig: Performance, safety, and more](https://blog.logrocket.com/comparing-rust-vs-zig-performance-safety-more/) - Eze
 * [Memory Safety in C++ vs Rust vs Zig](https://medium.com/@shyamsundarb/memory-safety-in-c-vs-rust-vs-zig-f78fa903f41e)
 * [A TypeScripter's Take on Zig (Advent of Code 2023)](https://effectivetypescript.com/2024/07/17/advent2023-zig/)
+* [Zig in Depth: A video course that covers the Zig programming language in depth.](https://www.youtube.com/playlist?list=PLtB7CL7EG7pCw7Xy1SQC53Gl8pI7aDg9t)
 
 ## Cheat sheets
 
