@@ -90,6 +90,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 * :star: [Building an HTTP client/server from scratch](https://blog.orhun.dev/zig-bits-04/) - A practical guide to building a web server in Zig.
 * [Writing a struct deserializer with Zig metaprogramming](https://nathancraddock.com/blog/deserialization-with-zig-metaprogramming/)
 * [Starting a new game dev project](https://www.youtube.com/watch?v=YiuCltFZldk) - A practical guide to building a new game dev project
+* [Exploring Zig Programming Language with The Mandelbrot Set](https://www.rdiachenko.com/posts/zig/exploring-ziglang-with-mandelbrot-set/) - Explore Zig by building a program that plots the Mandelbrot set
 
 ## Best Practices/Style Guides
 
