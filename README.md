@@ -32,6 +32,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 * [Are we ... yet?](#are-we--yet)
 * [Comparison with Other Languages](#zig-comparison-with-other-languages)
 * [Applications / Libraries / Tools](#applications--libraries--tools)
+* [AI / Machine Learning](#ai--machine-learning)
 * [Language stuff](#language-stuff)
   * [Closures](#closures)
   * [Documentation](#documentation)
@@ -208,6 +209,21 @@ The main documentation is always the best beginning, so if you haven't read it y
 ## Applications / Libraries / Tools
 
 See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awesome-zig](https://github.com/zigcc/awesome-zig)
+
+### Notable Recent Projects
+
+* [zpdf](https://github.com/Lulzx/zpdf) - Zero-copy PDF text extraction library with SIMD acceleration (891 stars)
+* [zio](https://github.com/lalinsky/zio) - Async I/O framework for Zig with epoll/io-uring support (413 stars)
+* [ziex](https://github.com/ziex-dev/ziex) - Full-stack web framework with HTML syntax within Zig code (163 stars)
+* [zig-regex](https://github.com/zig-utils/zig-regex) - Modern, performant regular expression library
+* [zig-lz4](https://github.com/jedisct1/zig-lz4) - LZ4 implementation in pure Zig
+
+## AI / Machine Learning
+
+* [zigformer](https://github.com/CogitatorTech/zigformer) - Educational transformer-based LLM in pure Zig
+* [llm.zig](https://github.com/Saimirbaci/llm.zig) - LLM implementation in Zig
+* [MLX.zig](https://github.com/jaco-bro/MLX.zig) - MLX (Apple Silicon ML framework) bindings for Zig - supports Phi-4, Llama 3.2, Whisper
+* [Implementing MNIST classifier from scratch in Zig](https://cernockyd.com/blog/implementing-mnist-classifier-from-scratch-in-zig) - Building a neural network from scratch in pure Zig
 
 ## Language stuff
 
