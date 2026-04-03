@@ -64,6 +64,11 @@ The main documentation is always the best beginning, so if you haven't read it y
 * :star: [Zig Roadmap 2024(Andrew Kelley)](https://www.youtube.com/watch?v=5eL_LcxwwHg)
 * :star:[Is 2024 The Year Of Zig ?](https://www.youtube.com/watch?v=DucriSA8ukw)
 * [Advent of Code 2023 in Zig](https://www.youtube.com/watch?v=HftiNZwMdzY)
+* [Zig Roadmap 2026](https://www.youtube.com/watch?v=x3hOiOcbgeA) - Zig SHOWTIME
+* [Zig Build System Basics (Zig 0.14)](https://www.youtube.com/watch?v=jy7w_7JZYyw) - Zig SHOWTIME
+* [I Made My Own OS Using Zig!](https://www.youtube.com/watch?v=KMgUgPFHL7Y) - Emez Labs
+* [Zig Development Async/Await Resurrection](https://www.youtube.com/watch?v=0kUvoU60pbc) - Andrewrok Archives
+* [Data-Oriented Design Revisited: Type Safety in the Zig Compiler](https://www.youtube.com/watch?v=KOZcJwGdQok) - Matthew Lugg
 
 ### Playlists
 
@@ -75,6 +80,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 * 2022-10-04 - [Intro to the Zig Programming Language • Andrew Kelley • GOTO 2022](https://www.youtube.com/watch?v=YXrb-DqsBNU)- Andrew Kelley
 * 2019-04-23 - [Andrew Kelley - The Zen of Zig](https://www.youtube.com/watch?v=Gv2I7qTux7g) - A presentation by the creator of Zig, explaining its philosophy and features.
 * 2024-09-30 - [Pragma driven shared memory parallelism in Zig by supporting OpenMP loop directives](https://arxiv.org/html/2409.20148v1) - In this paper they describe enhancing the Zig compiler to add support for OpenMP loop directives.
+* 2025-02-01 - [Small headed programming for performance with prescheme, nim and zig](https://archive.fosdem.org/2025/schedule/event/fosdem-2025-5848-small-headed-programming-for-performance-with-prescheme-nim-and-zig/) - FOSDEM 2025
 
 ## Podcasts
 
@@ -82,6 +88,10 @@ The main documentation is always the best beginning, so if you haven't read it y
 * 2022-07-01 - [Full-Time Open Source With Andrew Kelley](https://corecursive.com/067-zig-with-andrew-kelley/)
 * 2022-06-24 - [Zig with Andrew Kelley](https://rustacean-station.org/episode/andrew-kelley/)
 * 2022-01-24 - [Zig and Zigler with Isaac Yonemoto](https://podcast.thinkingelixir.com/83) - Isaac Yonemoto
+* 2025-05-29 - [Exploring the Zig programming language with Loris Cro](https://podcasts.apple.com/ng/podcast/exploring-the-zig-programming-language-with-loris-cro/id1740467376) - Coding Chats
+* 2025-10-09 - [Zig Creator Andrew Kelley](https://www.youtube.com/watch?v=w74rC-6caxE) - Software Unscripted
+* 2025-12-25 - [Loris Cro on the Rise of Zig](https://hanselminutes.com/1029/loris-cro-on-the-rise-of-zig) - Hanselminutes
+* 2025-11-17 - [Why is Zig so cool?](https://podscan.fm/podcasts/the-changelog-software-development-open-source/episodes/why-is-zig-so-cool-news) - The Changelog
 
 ## Zig in practice
 
@@ -213,10 +223,14 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 ### Notable Recent Projects
 
 * [zpdf](https://github.com/Lulzx/zpdf) - Zero-copy PDF text extraction library with SIMD acceleration (891 stars)
+* [zig-lsp-codegen](https://github.com/zigtools/zig-lsp-codegen) - Building blocks to develop LSP implementations in Zig (147 stars)
 * [zio](https://github.com/lalinsky/zio) - Async I/O framework for Zig with epoll/io-uring support (413 stars)
 * [ziex](https://github.com/ziex-dev/ziex) - Full-stack web framework with HTML syntax within Zig code (163 stars)
+* [dusty](https://github.com/lalinsky/dusty) - HTTP client/server library for Zig (89 stars)
+* [ziglint](https://github.com/rockorager/ziglint) - Opinionated linting to keep your agent in check (35 stars)
 * [zig-regex](https://github.com/zig-utils/zig-regex) - Modern, performant regular expression library
 * [zig-lz4](https://github.com/jedisct1/zig-lz4) - LZ4 implementation in pure Zig
+* [zwanzig](https://github.com/forketyfork/zwanzig) - Static analyzer and linter for Zig (19 stars)
 
 ## AI / Machine Learning
 
