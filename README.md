@@ -6,7 +6,7 @@ A bunch of links to blog posts, articles, videos, etc for learning Zig. Feel fre
 
 *Do you want to be convinced that Zig is worth learning?* Let us show you the [Comparison](https://ziglang.org/learn/why_zig_rust_d_cpp/)).
 
-The main documentation is always the best beginning, so if you haven't read it yet, start by reading the [Zig learn](https://ziglang.org/learn/)). Online learning resources [here](https://zig.guide/) and [here](https://codeberg.org/ziglings/exercises/).
+The main documentation is always the best beginning, so if you haven't read it yet, start by reading the [Zig learn](https://ziglang.org/learn/)). Online learning resources at [zig.guide](https://zig.guide/) and [ziglings exercises](https://codeberg.org/ziglings/exercises/).
 
 ### Tag meanings
 
@@ -120,14 +120,14 @@ The main documentation is always the best beginning, so if you haven't read it y
 ## Cheat sheets
 
 * :star: [Syntax Index](https://ziglang.org/documentation/master/) - Official documentation covering Zig's syntax and key concepts.
-* [Zig Learn](https://ziglearn.org/) - A community-maintained guide for beginners, offering an introduction to Zig's core features with practical examples.
+* [Community Zig Tutorials](https://zig.news/) - A portal for discovering new Zig tutorials and community-driven content.
 * [Zig by Example](https://zig-by-example.com/) - A collection of simple and concise Zig code examples for learning and reference.
-* [Zig Standard Library Overview](https://ziglang.org/documentation/master/std/) - A detailed overview of Zig’s standard library, ideal for understanding built-in utilities and functions.
 * [Zig Cheat Sheet](https://gist.github.com/jdmichaud/b75ee234bfa87283a6337e06a3b70767) - A handy reference guide with key Zig programming concepts and syntax patterns, created by a Zig community member.
 * [Zig Language Patterns](https://github.com/SuperAuguste/zig-patterns) - Best practices and design patterns written by Andrew Kelley, the creator of Zig.
-* [Zig Playground](https://zig-play.dev/) - An online environment for experimenting with Zig code snippets and testing ideas quickly.
-* [Community Zig Tutorials](https://zig.news/) - A portal for discovering new Zig tutorials and community-driven content.
+* [Zig Learn](https://ziglearn.org/) - A community-maintained guide for beginners, offering an introduction to Zig's core features with practical examples.
 * [Zig Memory Management Guide](https://ziglang.org/documentation/master/#Memory) - Useful tips and tricks for managing memory safely and efficiently in Zig.
+* [Zig Playground](https://zig-play.dev/) - An online environment for experimenting with Zig code snippets and testing ideas quickly.
+* [Zig Standard Library Overview](https://ziglang.org/documentation/master/std/) - A detailed overview of Zig's standard library, ideal for understanding built-in utilities and functions.
 
 ## Zig internals
 
@@ -201,20 +201,20 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ### Zig Comparison with Other Languages
 
-| **Languages**  | **Links**                                                    |
-| -------------- | ------------------------------------------------------------ |
-| **C**          | <ul><li>[Meet Zig: The modern alternative to C](https://www.infoworld.com/article/2338081/meet-the-zig-programming-language.html#:~:text=Zig%20is%20strongly%20typed%20and,parameters%20(%20arg%3A%20anytype%20).) -  infoWorld </li><li>[Zig is more pragmatic than C](https://andrewkelley.me/post/intro-to-zig.html) - Andrew Kelley</li><li>[Zig: Already More Knowable Than C](https://andrewkelley.me/post/zig-already-more-knowable-than-c.html) - Andrew Kelley</li><li>[A "BETTER C" BENCHMARK](https://zserge.com/posts/better-c-benchmark/) - Serge</li></ul> |
-| **C++**        | <ul><li>[Why Zig When There is Already C++, D, and Rust?](https://ziglang.org/learn/why_zig_rust_d_cpp/) - Zig Community</li><li>[Goodbye to the C++ Implementation of Zig](https://ziglang.org/news/goodbye-cpp/) - Zig Community</li><li>[Memory Safety in C++ vs Rust vs Zig](https://medium.com/@shyamsundarb/memory-safety-in-c-vs-rust-vs-zig-f78fa903f41e) - B Shyam Sundar</li><li>[Software Reliability C++ vs Zig](https://erik-engheim.medium.com/software-reliability-c-vs-zig-dbb2d0005b9c) - Erik Engheim</li></ul> |
-| **Go**         | <ul><li>[The Zig and Go Programming Showdown!](https://erikexplores.substack.com/p/the-zig-and-go-programming-showdown) - ERIK ENGHEIM</li><li>[Zig Makes Go Cross Compilation Just Work](https://dev.to/kristoff/zig-makes-go-cross-compilation-just-work-29ho) - Loris Cro </li></ul> |
-| **Rust**       | <ul><li>[How (memory) safe is zig?](https://www.scattered-thoughts.net/writing/how-safe-is-zig/) - Jamie Brandon</li><li>[Comparing Rust vs. Zig: Performance, safety, and more](https://blog.logrocket.com/comparing-rust-vs-zig-performance-safety-more/) - Eze Sunday</li><li>[Zero Cost Abstractions in C++20, Rust, & Zig](https://www.youtube.com/watch?v=43X9ia-qpds) - Context Free</li></ul> |
-| **Python**     | <ul><li>[How to create Zig Binding for Python to create compiled and optimized libraries](https://z-uo.medium.com/zig-python-easy-optimized-f64341625d04) - Nicola Landro</li><li>[Speeding up Python with Zig](https://2022.pycon.de/program/DFWSQR/) - Adam Serafini</li></ul> |
+| **Languages** | **Links** |
+| --- | --- |
+| **C** | <ul><li>[Meet Zig: The modern alternative to C](https://www.infoworld.com/article/2338081/meet-the-zig-programming-language.html#:~:text=Zig%20is%20strongly%20typed%20and,parameters%20(%20arg%3A%20anytype%20).) - infoWorld</li><li>[Zig is more pragmatic than C](https://andrewkelley.me/post/intro-to-zig.html) - Andrew Kelley</li><li>[Zig: Already More Knowable Than C](https://andrewkelley.me/post/zig-already-more-knowable-than-c.html) - Andrew Kelley</li><li>[A "BETTER C" BENCHMARK](https://zserge.com/posts/better-c-benchmark/) - Serge</li></ul> |
+| **C++** | <ul><li>[Why Zig When There is Already C++, D, and Rust?](https://ziglang.org/learn/why_zig_rust_d_cpp/) - Zig Community</li><li>[Goodbye to the C++ Implementation of Zig](https://ziglang.org/news/goodbye-cpp/) - Zig Community</li><li>[Memory Safety in C++ vs Rust vs Zig](https://medium.com/@shyamsundarb/memory-safety-in-c-vs-rust-vs-zig-f78fa903f41e) - B Shyam Sundar</li><li>[Software Reliability C++ vs Zig](https://erik-engheim.medium.com/software-reliability-c-vs-zig-dbb2d0005b9c) - Erik Engheim</li></ul> |
+| **Go** | <ul><li>[The Zig and Go Programming Showdown!](https://erikexplores.substack.com/p/the-zig-and-go-programming-showdown) - ERIK ENGHEIM</li><li>[Zig Makes Go Cross Compilation Just Work](https://dev.to/kristoff/zig-makes-go-cross-compilation-just-work-29ho) - Loris Cro</li></ul> |
+| **Rust** | <ul><li>[How (memory) safe is zig?](https://www.scattered-thoughts.net/writing/how-safe-is-zig/) - Jamie Brandon</li><li>[Comparing Rust vs. Zig: Performance, safety, and more](https://blog.logrocket.com/comparing-rust-vs-zig-performance-safety-more/) - Eze Sunday</li><li>[Zero Cost Abstractions in C++20, Rust, & Zig](https://www.youtube.com/watch?v=43X9ia-qpds) - Context Free</li></ul> |
+| **Python** | <ul><li>[How to create Zig Binding for Python to create compiled and optimized libraries](https://z-uo.medium.com/zig-python-easy-optimized-f64341625d04) - Nicola Landro</li><li>[Speeding up Python with Zig](https://2022.pycon.de/program/DFWSQR/) - Adam Serafini</li></ul> |
 | **JavaScript** | <ul><li>[Access the JS host environment from Zig compiled to WebAssembly.](https://github.com/mitchellh/zig-js) - mitchellh</li><li>[Zig vs JavaScript](https://www.brochweb.com/blog/post/zig-vs-javascript/) - Asher White</li></ul> |
-| **Java**       | <ul><li>[[Zig structs vs Java classes](https://ziggit.dev/t/zig-structs-vs-java-classes/4637/2) - ziggit.dev</li></ul> |
-| **Swift**      | <ul><li>[zig-and-swiftui](https://mitchellh.com/writing/zig-and-swiftui) - mitchellh </li><li>[Mapping Types between Zig and Swift](https://zig.news/kristoff/sharing-types-between-zig-and-swift-part-1-22cm) - Loris Cro</li></ul> |
-| **Haskell**    |                                                              |
-| **Ruby**       | <ul><li>[Long story short: I build a Ruby extension with Zig](https://dev.to/katafrakt/long-story-short-i-build-a-ruby-extension-with-zig-cao) - Paweł Świątkowski</li></ul> |
-| **Erlang**     | <ul><li>[Build and Extend Erlang OTP with Zig](https://www.elixirconf.eu/talks/build-and-extend-erlang-otp-with-zig/) - Marcel Lanz</li></ul> |
-| **Nim**        | <ul><li>[Nim safety features like Zig & Rust?](https://forum.nim-lang.org/t/10910) - NimZig Community</li></li></ul> |
+| **Java** | <ul><li>[Zig structs vs Java classes](https://ziggit.dev/t/zig-structs-vs-java-classes/4637/2) - ziggit.dev</li></ul> |
+| **Swift** | <ul><li>[zig-and-swiftui](https://mitchellh.com/writing/zig-and-swiftui) - mitchellh</li><li>[Mapping Types between Zig and Swift](https://zig.news/kristoff/sharing-types-between-zig-and-swift-part-1-22cm) - Loris Cro</li></ul> |
+| **Haskell** | |
+| **Ruby** | <ul><li>[Long story short: I build a Ruby extension with Zig](https://dev.to/katafrakt/long-story-short-i-build-a-ruby-extension-with-zig-cao) - Paweł Świątkowski</li></ul> |
+| **Erlang** | <ul><li>[Build and Extend Erlang OTP with Zig](https://www.elixirconf.eu/talks/build-and-extend-erlang-otp-with-zig/) - Marcel Lanz</li></ul> |
+| **Nim** | <ul><li>[Nim safety features like Zig & Rust?](https://forum.nim-lang.org/t/10910) - NimZig Community</li></ul> |
 
 ## Applications / Libraries / Tools
 
@@ -231,6 +231,8 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * [zig-regex](https://github.com/zig-utils/zig-regex) - Modern, performant regular expression library
 * [zig-lz4](https://github.com/jedisct1/zig-lz4) - LZ4 implementation in pure Zig
 * [zwanzig](https://github.com/forketyfork/zwanzig) - Static analyzer and linter for Zig (19 stars)
+* [Regex.zig](https://github.com/quangd42/regex.zig) - Native Zig regex engine in the RE2 family with guaranteed linear time matching
+* [Zeno](https://github.com/zeno-core/zeno) - High-performance embedded key-value storage engine with ART index (10M+ ops/sec)
 
 ## AI / Machine Learning
 
@@ -309,6 +311,7 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 
 * [Zig Metaprogramming](https://ikrima.dev/dev-notes/zig/zig-metaprogramming/) - ikrima
 * [Supercharging Python Performance with Zig: Building Python Packages and Benchmarking for Speed](https://www.linkedin.com/pulse/supercharging-python-performance-zig-building-packages-bassem-aziz-glmlc/) - [Bassem Aziz](https://www.linkedin.com/in/bassemaziz/)
+* [zig-trait](https://github.com/passchaos/zigraft) - Library to emulate Rust's trait in Zig with associated types, default implementations, and inheritance
 
 ### Optional
 
