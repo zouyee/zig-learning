@@ -236,6 +236,7 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 
 ## AI / Machine Learning
 
+* :star: [llmlite](https://github.com/zouyee/llmlite) - Lightweight LLM inference library in pure Zig
 * [zigformer](https://github.com/CogitatorTech/zigformer) - Educational transformer-based LLM in pure Zig
 * [llm.zig](https://github.com/Saimirbaci/llm.zig) - LLM implementation in Zig
 * [MLX.zig](https://github.com/jaco-bro/MLX.zig) - MLX (Apple Silicon ML framework) bindings for Zig - supports Phi-4, Llama 3.2, Whisper
