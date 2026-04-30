@@ -51,6 +51,15 @@
         },
         {
             "pattern": "^https://cherel.dev"
+        },
+        {
+            "pattern": "^https://zig-by-example.com"
+        },
+        {
+            "pattern": "^https://cernockyd.com"
+        },
+        {
+            "pattern": "^https://www.huy.rocks"
         }
     ]
 }
