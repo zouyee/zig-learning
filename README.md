@@ -76,6 +76,9 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ### Presentations
 
+* 2026-04-14 - [Zig 0.16.0 Release Notes](https://ziglang.org/download/0.16.0/release-notes.html) - Major release debuting I/O as an Interface, Juicy Main, and incremental compilation improvements
+* 2026-04-27 - [Zig explores structured concurrency](https://lwn.net/Articles/1067634/) - LWN.net coverage of Zig 0.16.0's new `Io` interface based on structured concurrency
+* 2025-11-26 - [Migrating from GitHub to Codeberg](https://ziglang.org/news/migrating-from-github-to-codeberg/) - Zig project officially moves its canonical repository from GitHub to Codeberg
 * 2023-10-04 - [Rust & Zig Combined • Richard Feldman • GOTO 2023](https://www.youtube.com/watch?v=jIZpKpLCOiU) - Richard Feldman
 * 2022-10-04 - [Intro to the Zig Programming Language • Andrew Kelley • GOTO 2022](https://www.youtube.com/watch?v=YXrb-DqsBNU)- Andrew Kelley
 * 2019-04-23 - [Andrew Kelley - The Zen of Zig](https://www.youtube.com/watch?v=Gv2I7qTux7g) - A presentation by the creator of Zig, explaining its philosophy and features.
@@ -131,9 +134,11 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ## Zig internals
 
-* :star: [Zig Proposals](https://github.com/ziglang/zig/issues?q=is%3Aissue++label%3Aproposal+) - A collection of Zig’s proposed RFCs (Request for Comments) for proposals.
-* :star: [Zig Documentation](https://ziglang.org/documentation/master/) - The official and comprehensive documentation for understanding Zig’s features and syntax.
+* :star: [Codeberg Repository](https://codeberg.org/ziglang/zig) - Official Zig repository after migrating from GitHub to Codeberg (November 2025)
+* :star: [Zig 0.16.0 Release Notes](https://ziglang.org/download/0.16.0/release-notes.html) - Major release with I/O as Interface, Juicy Main, and incremental compilation improvements
 * :star: [Zig Community Forum](https://ziggit.dev/) - A discussion platform for Zig language design, development news, and technical questions.
+* :star: [Zig Documentation](https://ziglang.org/documentation/master/) - The official and comprehensive documentation for understanding Zig’s features and syntax.
+* :star: [Zig Proposals](https://github.com/ziglang/zig/issues?q=is%3Aissue++label%3Aproposal+) - A collection of Zig’s proposed RFCs (Request for Comments) for proposals.
 
 ## Compilation
 
@@ -222,17 +227,21 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 
 ### Notable Recent Projects
 
-* [zpdf](https://github.com/Lulzx/zpdf) - Zero-copy PDF text extraction library with SIMD acceleration (891 stars)
+* [CascadeOS](https://github.com/CascadeOS/CascadeOS) - General purpose operating system targeting standard desktops and laptops (115 stars)
+* [dusty](https://github.com/lalinsky/dusty) - HTTP client/server library for Zig (89 stars)
+* [Lightpanda](https://github.com/lightpanda-io/browser) - Zig-built headless browser optimized for AI automation and scraping (8.2K stars)
+* [Regex.zig](https://github.com/quangd42/regex.zig) - Native Zig regex engine in the RE2 family with guaranteed linear time matching
+* [wterm](https://github.com/vercel-labs/wterm) - Zig + WASM-powered browser-native terminal emulator by Vercel Labs
+* [Zeno](https://github.com/zeno-core/zeno) - High-performance embedded key-value storage engine with ART index (10M+ ops/sec)
 * [zig-lsp-codegen](https://github.com/zigtools/zig-lsp-codegen) - Building blocks to develop LSP implementations in Zig (147 stars)
+* [zig-lz4](https://github.com/jedisct1/zig-lz4) - LZ4 implementation in pure Zig
+* [zig-regex](https://github.com/zig-utils/zig-regex) - Modern, performant regular expression library
+* [ziglint](https://github.com/rockorager/ziglint) - Opinionated linting to keep your agent in check (35 stars)
 * [zio](https://github.com/lalinsky/zio) - Async I/O framework for Zig with epoll/io-uring support (413 stars)
 * [ziex](https://github.com/ziex-dev/ziex) - Full-stack web framework with HTML syntax within Zig code (163 stars)
-* [dusty](https://github.com/lalinsky/dusty) - HTTP client/server library for Zig (89 stars)
-* [ziglint](https://github.com/rockorager/ziglint) - Opinionated linting to keep your agent in check (35 stars)
-* [zig-regex](https://github.com/zig-utils/zig-regex) - Modern, performant regular expression library
-* [zig-lz4](https://github.com/jedisct1/zig-lz4) - LZ4 implementation in pure Zig
+* [zml](https://github.com/orgs/zml/repositories) - Any model. Any hardware. Zero compromise. ML framework built with Zig (2.6K stars)
+* [zpdf](https://github.com/Lulzx/zpdf) - Zero-copy PDF text extraction library with SIMD acceleration (891 stars)
 * [zwanzig](https://github.com/forketyfork/zwanzig) - Static analyzer and linter for Zig (19 stars)
-* [Regex.zig](https://github.com/quangd42/regex.zig) - Native Zig regex engine in the RE2 family with guaranteed linear time matching
-* [Zeno](https://github.com/zeno-core/zeno) - High-performance embedded key-value storage engine with ART index (10M+ ops/sec)
 
 ## AI / Machine Learning
 
@@ -241,6 +250,21 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * [llm.zig](https://github.com/Saimirbaci/llm.zig) - LLM implementation in Zig
 * [MLX.zig](https://github.com/jaco-bro/MLX.zig) - MLX (Apple Silicon ML framework) bindings for Zig - supports Phi-4, Llama 3.2, Whisper
 * [Implementing MNIST classifier from scratch in Zig](https://cernockyd.com/blog/implementing-mnist-classifier-from-scratch-in-zig) - Building a neural network from scratch in pure Zig
+
+### AI Agents & Frameworks
+
+* [NullClaw](https://github.com/NullClaw/zig) - Full-stack AI agent framework in pure Zig. 678KB binary, ~1MB RAM, boots in 2ms. Supports 20+ LLM providers (2026)
+* [KrillClaw](https://github.com/krillclaw/KrillClaw) - World's smallest AI agent runtime (49KB/450KB binary). Written in Zig, zero dependencies. Runs on microcontrollers or cloud. Supports 20+ LLM providers (2026)
+* [zig-ai](https://github.com/FOLLGAD/zig-ai) - Simple OpenAI API client for Zig with streaming support
+* [zai](https://github.com/allisoneer/zai) - Multi-provider AI library for Zig (OpenAI-compatible, Amazon Bedrock, Anthropic)
+* [ZigNet](https://github.com/fulgidus/zignet) - MCP server for Zig with AI-powered code analysis, validation, and documentation (fine-tuned LLM)
+
+### Deep Learning & Inference
+
+* [zigrad](https://github.com/Marco-Christiani/zigrad) - Deep learning framework with autograd engine. 2.5x+ speedup over PyTorch on Apple Silicon. Active development (192 stars)
+* [zigTensor](https://github.com/cryptodeal/zigTensor) - Fast, flexible machine learning library in pure Zig (inspired by Flashlight)
+* [zig-ml](https://github.com/ApoorvaJ/zig-ml) - Large Language Model inference written in Zig (llama2.c port)
+* [llama2.zig](https://github.com/cgbur/llama2.zig) - Inference Llama 2 in one file of pure Zig with SIMD optimization (211 stars, archived)
 
 ## Language stuff
 
