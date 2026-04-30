@@ -218,6 +218,7 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 
 * [CascadeOS](https://github.com/CascadeOS/CascadeOS) - General purpose operating system targeting standard desktops and laptops (115 stars)
 * [dusty](https://github.com/lalinsky/dusty) - HTTP client/server library for Zig (89 stars)
+* [Ghostty](https://github.com/ghostty-org/ghostty) - Fast, feature-rich, cross-platform terminal emulator with GPU acceleration and native UI. Built with Zig (52K stars)
 * [Lightpanda](https://github.com/lightpanda-io/browser) - Zig-built headless browser optimized for AI automation and scraping (8.2K stars)
 * [Regex.zig](https://github.com/quangd42/regex.zig) - Native Zig regex engine in the RE2 family with guaranteed linear time matching
 * [wterm](https://github.com/vercel-labs/wterm) - Zig + WASM-powered browser-native terminal emulator by Vercel Labs
