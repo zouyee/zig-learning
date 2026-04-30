@@ -40,6 +40,12 @@
             "pattern": "^https://podscan.fm"
         },
         {
+            "pattern": "^https://www.youtube.com"
+        },
+        {
+            "pattern": "^https://open.spotify.com"
+        },
+        {
             "pattern": "^https://www.openmymind.net"
         },
         {

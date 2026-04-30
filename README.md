@@ -57,6 +57,8 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ## Videos
 
+* :star: [Introduction to Zig](https://www.youtube.com/watch?v=YXrb-DqsBNU&list=PLV9VPfCMjvoAkgrPTuGCoRnelFwlKXyTS) - A video introduction to Zig and its features.
+* :star: [Zig ShowTime](https://www.youtube.com/@ZigSHOWTIME) - A playlist of talks and tutorials on Zig by community members.
 * :star: [Zig Roadmap 2024(Andrew Kelley)](https://www.youtube.com/watch?v=5eL_LcxwwHg)
 * :star:[Is 2024 The Year Of Zig ?](https://www.youtube.com/watch?v=DucriSA8ukw)
 * [Advent of Code 2023 in Zig](https://www.youtube.com/watch?v=HftiNZwMdzY)
@@ -83,6 +85,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ## Podcasts
 
+* 2024-07-14 - [Zig as a Multi-OS Build System (with Loris Cro)](https://open.spotify.com/episode/1CKAVEQfS0aVWV5GuT96AF) - Loris Cro
 * 2022-07-01 - [Full-Time Open Source With Andrew Kelley](https://corecursive.com/067-zig-with-andrew-kelley/)
 * 2022-06-24 - [Zig with Andrew Kelley](https://rustacean-station.org/episode/andrew-kelley/)
 * 2022-01-24 - [Zig and Zigler with Isaac Yonemoto](https://podcast.thinkingelixir.com/83) - Isaac Yonemoto
