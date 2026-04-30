@@ -1,4 +1,8 @@
 {
+    "timeout": "20s",
+    "retryOn429": true,
+    "retryCount": 3,
+    "fallbackRetryDelay": "5s",
     "ignorePatterns": [
         {
             "pattern": "^https://github.com"
@@ -41,9 +45,6 @@
         },
         {
             "pattern": "^https://www.youtube.com"
-        },
-        {
-            "pattern": "^https://open.spotify.com"
         },
         {
             "pattern": "^https://www.openmymind.net"

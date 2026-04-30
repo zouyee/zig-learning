@@ -208,7 +208,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 | **Haskell** | |
 | **Ruby** | <ul><li>[Long story short: I build a Ruby extension with Zig](https://dev.to/katafrakt/long-story-short-i-build-a-ruby-extension-with-zig-cao) - Paweł Świątkowski</li></ul> |
 | **Erlang** | <ul><li>[Build and Extend Erlang OTP with Zig](https://www.elixirconf.eu/talks/build-and-extend-erlang-otp-with-zig/) - Marcel Lanz</li></ul> |
-| **Nim** | <ul><li>[Nim safety features like Zig & Rust?](https://forum.nim-lang.org/t/10910) - NimZig Community</li></ul> |
+| **Nim** | <ul></ul> |
 
 ## Applications / Libraries / Tools
 
