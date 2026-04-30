@@ -52,15 +52,11 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ## Books
 
-* :star: [Learning Zig](https://www.openmymind.net/learning_zig/) - Introduction to Zig aimed at developers coming from garbage collected languages.
 * :star: [Zig Programming Language](https://ziglearn.org) - An introductory book on Zig, covering the basics to advanced topics.
-* :star: [Zig by Example](https://zigbyexample.com) - A hands-on guide with examples to learn Zig.
 * :star: [zig-cookbook](https://cookbook.ziglang.cc/) - Simple Zig programs that demonstrate good practices to accomplish common programming tasks.
 
 ## Videos
 
-* :star: [Introduction to Zig](https://www.youtube.com/watch?v=YXrb-DqsBNU&list=PLV9VPfCMjvoAkgrPTuGCoRnelFwlKXyTS) - A video introduction to Zig and its features.
-* :star: [Zig ShowTime](https://www.youtube.com/@ZigSHOWTIME) - A playlist of talks and tutorials on Zig by community members.
 * :star: [Zig Roadmap 2024(Andrew Kelley)](https://www.youtube.com/watch?v=5eL_LcxwwHg)
 * :star:[Is 2024 The Year Of Zig ?](https://www.youtube.com/watch?v=DucriSA8ukw)
 * [Advent of Code 2023 in Zig](https://www.youtube.com/watch?v=HftiNZwMdzY)
@@ -87,14 +83,12 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ## Podcasts
 
-* 2024-07-14 - [Zig as a Multi-OS Build System (with Loris Cro)](https://open.spotify.com/episode/1CKAVEQfS0aVWV5GuT96AF) - Loris Cro
 * 2022-07-01 - [Full-Time Open Source With Andrew Kelley](https://corecursive.com/067-zig-with-andrew-kelley/)
 * 2022-06-24 - [Zig with Andrew Kelley](https://rustacean-station.org/episode/andrew-kelley/)
 * 2022-01-24 - [Zig and Zigler with Isaac Yonemoto](https://podcast.thinkingelixir.com/83) - Isaac Yonemoto
 * 2025-05-29 - [Exploring the Zig programming language with Loris Cro](https://podcasts.apple.com/ng/podcast/exploring-the-zig-programming-language-with-loris-cro/id1740467376) - Coding Chats
 * 2025-10-09 - [Zig Creator Andrew Kelley](https://www.youtube.com/watch?v=w74rC-6caxE) - Software Unscripted
 * 2025-12-25 - [Loris Cro on the Rise of Zig](https://hanselminutes.com/1029/loris-cro-on-the-rise-of-zig) - Hanselminutes
-* 2025-11-17 - [Why is Zig so cool?](https://podscan.fm/podcasts/the-changelog-software-development-open-source/episodes/why-is-zig-so-cool-news) - The Changelog
 
 ## Zig in practice
 
@@ -109,9 +103,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 ## Best Practices/Style Guides
 
 * :star: [Zig Design Patterns](https://github.com/SuperAuguste/zig-patterns)
-* :star: [zig-common-tasks](https://renatoathaydes.github.io/zig-common-tasks/) - [renatoathaydes](https://github.com/renatoathaydes)
 * :star: [Zig API guidelines](https://ziglang.org/documentation/master/)
-* [Reading Zig Function Signatures](https://zig.news/v142857/impl-on-userland-is-quite-easy-actually-13p3) - Val
 * [Good Practices for consuming C libraries](https://ziggit.dev/t/best-practices-for-consuming-c-libraries/6819) - [cztomsik](https://ziggit.dev/u/cztomsik)
 * [Zig Bits](https://blog.orhun.dev/zig-bits-04/)
 * [Best Practices for Structuring Zig Projects with External Dependencies](https://ziggit.dev/t/best-practices-for-structuring-zig-projects-with-external-dependencies/3723) - castholm
@@ -148,8 +140,6 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 * **[Zig Cross Compilation for macOS](https://github.com/shepherdjerred/macos-cross-compiler)** - This project allows you to cross-compile code on Linux that will be executed on macOS.
 
-* **[Zig: Cross-compiling for Systems](https://zig.news/kristoff/cross-compile-a-c-c-project-with-zig-3599)** - A blog post that explores how Zig can be used for multi-systems, Cross-compilation is especially great when you need to release an application that runs on multiple platforms: with Zig you can create all release artifacts from a single machine.
-
 * **[Compile Cargo project with zig](https://github.com/rust-cross/cargo-zigbuild)** - It is a tool that facilitates building Rust projects with the Zig toolchain, enabling cross-compilation and optimizations that are typically more straightforward than using Rust's native toolchain alone.  
 
 ## FFI
@@ -163,8 +153,6 @@ The main documentation is always the best beginning, so if you haven't read it y
 * **[Zig and Dynamic Libraries: Working with .so and .dll](https://ziggit.dev/t/zig-to-zig-dynamic-libraries-modules/6775)** - A blog post that explores how to build dynamic libraries (.so and .dll) using Zig. This is particularly useful when you need to create shared libraries for FFI purposes.
 
 * **[Integrating Zig with Rust for FFI](https://dev.to/mustafif/using-zig-in-rust-160p)** - A tutorial on how to create a Rust-Zig integration, using Zig’s FFI to enhance performance or utilize Zig’s unique features.
-
-* **[Building and Linking C Libraries with Zig](https://zig.news/almmiko/building-zig-libraries-with-c-dependencies-25a)** - This ZigLearn chapter shows how to use and link C libraries with Zig, which is helpful when creating bindings or using external C code in a Zig project.
 
 ## CI / Testing
 
@@ -190,8 +178,6 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 * **[Zig Performance Tracking](https://ziglang.org/perf/)** - This project exists to *track various benchmarks related to the Zig project* regarding execution speed, memory usage, throughput, and other resource.
 
-* **[Code Coverage for Zig](https://zig.news/squeek502/code-coverage-for-zig-1dk1)** - Despite the Zig compiler not having built-in support for generating code coverage information, it is still possible to generate it (on Linux at least). There might be other possibilities.
-
 ## Are we ... yet?
 
 * **[Are We IDE Yet? - Zig](https://ziglang.org/learn/tools/)** - An overview of current IDE support for Zig. It lists plugins and extensions for popular editors like VSCode, Sublime Text, and Vim, tracking the maturity of the Zig developer experience.
@@ -215,7 +201,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 | **Python** | <ul><li>[How to create Zig Binding for Python to create compiled and optimized libraries](https://z-uo.medium.com/zig-python-easy-optimized-f64341625d04) - Nicola Landro</li><li>[Speeding up Python with Zig](https://2022.pycon.de/program/DFWSQR/) - Adam Serafini</li></ul> |
 | **JavaScript** | <ul><li>[Access the JS host environment from Zig compiled to WebAssembly.](https://github.com/mitchellh/zig-js) - mitchellh</li><li>[Zig vs JavaScript](https://www.brochweb.com/blog/post/zig-vs-javascript/) - Asher White</li></ul> |
 | **Java** | <ul><li>[Zig structs vs Java classes](https://ziggit.dev/t/zig-structs-vs-java-classes/4637/2) - ziggit.dev</li></ul> |
-| **Swift** | <ul><li>[zig-and-swiftui](https://mitchellh.com/writing/zig-and-swiftui) - mitchellh</li><li>[Mapping Types between Zig and Swift](https://zig.news/kristoff/sharing-types-between-zig-and-swift-part-1-22cm) - Loris Cro</li></ul> |
+| **Swift** | <ul><li>[zig-and-swiftui](https://mitchellh.com/writing/zig-and-swiftui) - mitchellh</li></ul> |
 | **Haskell** | |
 | **Ruby** | <ul><li>[Long story short: I build a Ruby extension with Zig](https://dev.to/katafrakt/long-story-short-i-build-a-ruby-extension-with-zig-cao) - Paweł Świątkowski</li></ul> |
 | **Erlang** | <ul><li>[Build and Extend Erlang OTP with Zig](https://www.elixirconf.eu/talks/build-and-extend-erlang-otp-with-zig/) - Marcel Lanz</li></ul> |
@@ -270,8 +256,6 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 
 ### Closures
 
-* :star:[Closure Pattern in Zig](https://zig.news/houghtonap/closure-pattern-in-zig-19i3) - [Andrew Houghton](https://zig.news/houghtonap)  
-* [Implementing Closures and Monads in Zig](https://zig.news/andrewgossage/implementing-closures-and-monads-in-zig-23kf)- [Andrew Brent Gossage](https://zig.news/andrewgossage)
 * [Zig Anonymous Functions and Closures: An In-Depth Analysis](https://gencmurat.com/en/posts/zig-anonymus-functions-and-closures/)
 
 ### Documentation
@@ -291,7 +275,6 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * [Error Handling in Zig](https://zig.guide/language-basics/errors/) - zig.guide
 * [Support error sets in switch cases](https://github.com/ziglang/zig/issues/2473) -  [hryx](https://github.com/hryx)
 * [Return Values and Error Unions in Zig](https://gencmurat.com/en/posts/advanced-guide-to-return-values-and-error-unions-in-zig/) - gencmurat  
-* [Error Handling In Zig](https://www.aolium.com/karlseguin/4013ac14-2457-479b-e59b-e603c04673c8) - [karlseguin](https://www.aolium.com/karlseguin)
 * [Errors and Zig](https://notes.eatonphil.com/errors-and-zig.html) -  [Phil Eaton](https://eatonphil.com/)
 
 ### Iterators
@@ -300,15 +283,12 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * :star:[Proposal: Generator / Iterator Syntactic Sugar](https://github.com/ziglang/zig/issues/5331) -  [kayomn](https://github.com/kayomn)
 * [How Zig Handles Iteration](https://zig.guide/standard-library/iterators/) - zig.guide
 * [Zig's Curious Multi-Sequence For Loops](https://kristoff.it/blog/zig-multi-sequence-for-loops/) - Loris Cro  
-* [Learning interfaces by implementing iterator in zig](https://zig.news/akhildevelops/learning-interfaces-by-implementing-iterator-in-zig-3do1) - [Akhil](https://zig.news/akhildevelops)  
 
 ### Memory
 
-* :star: [Memory Management in Zig: A Lifetime-Free Approach](https://andrewkelley.me/post/memory-management-in-zig.html) - Andrew Kelley
 * :star:[Memory Management in Zig](https://ziglang.org/documentation/master/#Memory) - ziglang documentation
 * [Memory Management With Zig](https://www.nmichaels.org/musings/zig/memory/) - Nathan
 * [How (memory) safe is zig?](https://www.scattered-thoughts.net/writing/how-safe-is-zig/) - [Jamie Brandon](https://github.com/jamii/)
-* [Learning Zig - Heap Memory & Allocators](https://www.openmymind.net/learning_zig/heap_memory/) - [Karl Seguin](https://github.com/karlseguin)
 * [What's a Memory Allocator Anyway?](https://www.youtube.com/watch?v=vHWiDx_l4V0) -  Benjamin Feng
 
 #### Comptime
@@ -317,25 +297,21 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * :star: [Conditionally Disabling Code with Comptime in Zig](https://mitchellh.com/writing/zig-comptime-conditional-disable) - [Mitchell Hashimoto](https://mitchellh.com/)
 * :star: [Tagged Union Subsets with Comptime in Zig](https://mitchellh.com/writing/zig-comptime-tagged-union-subset) - [Mitchell Hashimoto](https://mitchellh.com/)
 * [What is `comptime`?](https://kristoff.it/blog/what-is-zig-comptime/) - [Loris Cro](https://kristoff.it/)
-* [Compile-time Programming: A Beginner's Guide to `comptime` in Zig](https://cherel.dev/blog/zig-compiletime-guide/) - Guillaume Chérel
 
-* [Custom String Formatting and JSON Serializing in Zig](https://www.openmymind.net/Custom-String-Formatting-And-JSON-in-Zig/) - Karl Seguin
 * [Exploring Compile-Time Interfaces in Zig](https://medium.com/@jerrythomas_in/exploring-compile-time-interfaces-in-zig-5c1a1a9e59fd) - [Jerry Thomas](https://medium.com/@jerrythomas)
 * [Zig's Comptime is Bonkers Good](https://www.scottredig.com/blog/bonkers_comptime/) - Scott Redig
 
 ### Strings
 
 * [Proposal: Add String to the type system](https://github.com/ziglang/zig/issues/7734) - [mlarouche](https://github.com/mlarouche)
-* [Unicode String Operations](https://zig.news/dude_the_builder/unicode-string-operations-536e) - [dude_the_builder](https://zig.news/dude_the_builder)
 * [Using Zig to Call C Code: Strings](https://mtlynch.io/notes/zig-strings-call-c-code/) -  [Michael Lynch](https://mtlynch.io/)
-* [How to use hash map contexts to save memory when doing a string table](https://zig.news/andrewrk/how-to-use-hash-map-contexts-to-save-memory-when-doing-a-string-table-3l33) - [Andrew Kelley](https://zig.news/andrewrk)
 * [Zig / Strings in 5 minutes](https://www.huy.rocks/everyday/01-04-2022-zig-strings-in-5-minutes) - [Huy](https://www.huy.rocks/)
 * [Pointers in Zig](https://www.nmichaels.org/zig/pointers.html) -  [Nathan](https://www.nmichaels.org/)
 
 ### Syntax Extensions
 
 * [Zig Metaprogramming](https://ikrima.dev/dev-notes/zig/zig-metaprogramming/) - ikrima
-* [Supercharging Python Performance with Zig: Building Python Packages and Benchmarking for Speed](https://www.linkedin.com/pulse/supercharging-python-performance-zig-building-packages-bassem-aziz-glmlc/) - [Bassem Aziz](https://www.linkedin.com/in/bassemaziz/)
+* [Supercharging Python Performance with Zig: Building Python Packages and Benchmarking for Speed](https://www.linkedin.com/pulse/supercharging-python-performance-zig-building-packages-bassem-aziz-glmlc/) - Bassem Aziz
 * [zig-trait](https://github.com/passchaos/zigraft) - Library to emulate Rust's trait in Zig with associated types, default implementations, and inheritance
 
 ### Optional
@@ -351,8 +327,6 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 
 ## Locale links
 
-* [TODO: Chinese](zh_CN.md)
-
 ## Connection
 
 Are you searching for a Ziguanas ? [Ziglang.org](https://github.com/zig-community/user-map)
@@ -361,7 +335,7 @@ Do you want to ask a question? [Zig Users Forum](https://ziggit.dev/), [Reddit](
 
 Do you want to meet them IRL? [Community](https://github.com/ziglang/zig/wiki/Community)
 
-Go to Ziguanas events? [Zig SHOWTIME](https://zig.show/), [Zig conferences and events](https://zig.news/t/conference)
+Go to Ziguanas events? [Zig SHOWTIME](https://zig.show/)
 
 Are you looking for a job? [Zig Jobs on Indeed](https://www.indeed.com/q-zig-programming-jobs.html)
 
@@ -374,13 +348,12 @@ Do you want to find out why some historical decisions took place? [Zig GitHub Di
 ### Fearless Zig Bloggers
 
 * [Andrew Kelley](https://github.com/andrewrk) - [blog](https://andrewkelley.me/)
-* [Jonathan Marler](https://github.com/marler8997) - [blog](https://marler8997.github.io/)
-* [Hejsil](https://github.com/Hejsil) - [blog](https://hejsil.github.io/)
+* [Jonathan Marler](https://github.com/marler8997)
+* [Hejsil](https://github.com/Hejsil)
 * [Hexops](https://github.com/hexops) - [blog](https://hexops.com/)
-* [Karl Seguin](https://www.github.com/karlseguin) - [blog](https://www.openmymind.net)
-* [Loris Cro](https://github.com/kristoff-it) - [blog](https://kristoff.it/)
-* [tigerbeetle](https://github.com/tigerbeetle/tigerbeetle) - [blog](https://tigerbeetle.com/blog)
-* [Validark](https://github.com/Validark) - [blog](https://validark.github.io/)
+* [Karl Seguin](https://www.github.com/karlseguin)* [Loris Cro](https://github.com/kristoff-it) - [blog](https://kristoff.it/)
+* [tigerbeetle](https://github.com/tigerbeetle/tigerbeetle)
+* [Validark](https://github.com/Validark)
 * [Mitchell Hashimoto](https://github.com/mitchellh) - [blog](https://mitchellh.com/)
 
 ## Tutorials & Workshop Materials

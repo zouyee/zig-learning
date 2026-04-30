@@ -14,6 +14,36 @@
         },
         {
             "pattern": "^https://web.archive.org"
+        },
+        {
+            "pattern": "^#"
+        },
+        {
+            "pattern": "^https://(medium\\.com|.*\\.medium\\.com)"
+        },
+        {
+            "pattern": "^https://www.reddit.com"
+        },
+        {
+            "pattern": "^https://www.indeed.com"
+        },
+        {
+            "pattern": "^https://open.spotify.com"
+        },
+        {
+            "pattern": "^https://.*\\.substack\\.com"
+        },
+        {
+            "pattern": "^https://www.aolium.com"
+        },
+        {
+            "pattern": "^https://podscan.fm"
+        },
+        {
+            "pattern": "^https://www.openmymind.net"
+        },
+        {
+            "pattern": "^https://cherel.dev"
         }
     ]
 }
