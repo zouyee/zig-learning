@@ -74,6 +74,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ### Presentations
 
+* 2026-04-18 - [Core Team Member Spotlight: Alex Rønne Petersen](https://ziglang.org/news/) - ziglang.org
 * 2026-04-14 - [Zig 0.16.0 Release Notes](https://ziglang.org/download/0.16.0/release-notes.html) - Major release debuting I/O as an Interface, Juicy Main, and incremental compilation improvements
 * 2026-04-27 - [Zig explores structured concurrency](https://lwn.net/Articles/1067634/) - LWN.net coverage of Zig 0.16.0's new `Io` interface based on structured concurrency
 * 2025-11-26 - [Migrating from GitHub to Codeberg](https://ziglang.org/news/migrating-from-github-to-codeberg/) - Zig project officially moves its canonical repository from GitHub to Codeberg
@@ -114,6 +115,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 * [Memory Safety in C++ vs Rust vs Zig](https://medium.com/@shyamsundarb/memory-safety-in-c-vs-rust-vs-zig-f78fa903f41e)
 * [A TypeScripter's Take on Zig (Advent of Code 2023)](https://effectivetypescript.com/2024/07/17/advent2023-zig/)
 * [Zig in Depth: A video course that covers the Zig programming language in depth.](https://www.youtube.com/playlist?list=PLtB7CL7EG7pCw7Xy1SQC53Gl8pI7aDg9t)
+* [Zig Type Resolution Redesign and Language Changes in 2026](https://sesamedisk.com/zig-type-resolution-redesign-2026/) - Overview of Zig's type resolution overhaul, lazy field analysis, and incremental compilation improvements
 
 ## Cheat sheets
 
@@ -216,9 +218,13 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 ### Notable Recent Projects
 
 * [CascadeOS](https://github.com/CascadeOS/CascadeOS) - General purpose operating system targeting standard desktops and laptops (115 stars)
+* [codedb](https://github.com/justrach/codedb) - Zig code intelligence server and MCP toolset for AI agents (781 stars)
 * [dusty](https://github.com/lalinsky/dusty) - HTTP client/server library for Zig (89 stars)
+* [dvui](https://github.com/david-vanderson/dvui) - Immediate Zig GUI for Apps and Games (1.4K stars)
 * [Ghostty](https://github.com/ghostty-org/ghostty) - Fast, feature-rich, cross-platform terminal emulator with GPU acceleration and native UI. Built with Zig (52K stars)
+* [libxev](https://github.com/mitchellh/libxev) - Cross-platform, high-performance event loop for non-blocking IO, timers, events and more (3.5K stars)
 * [Lightpanda](https://github.com/lightpanda-io/browser) - Zig-built headless browser optimized for AI automation and scraping (8.2K stars)
+* [pixi](https://github.com/foxnne/pixi) - Pixel art editor made with Zig (1.3K stars)
 * [Regex.zig](https://github.com/quangd42/regex.zig) - Native Zig regex engine in the RE2 family with guaranteed linear time matching
 * [wterm](https://github.com/vercel-labs/wterm) - Zig + WASM-powered browser-native terminal emulator by Vercel Labs
 * [Zeno](https://github.com/zeno-core/zeno) - High-performance embedded key-value storage engine with ART index (10M+ ops/sec)
@@ -226,6 +232,7 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * [zig-lz4](https://github.com/jedisct1/zig-lz4) - LZ4 implementation in pure Zig
 * [zig-regex](https://github.com/zig-utils/zig-regex) - Modern, performant regular expression library
 * [ziglint](https://github.com/rockorager/ziglint) - Opinionated linting to keep your agent in check (35 stars)
+* [zmx](https://github.com/neurosnap/zmx) - Session persistence for terminal processes (1.4K stars)
 * [zio](https://github.com/lalinsky/zio) - Async I/O framework for Zig with epoll/io-uring support (413 stars)
 * [ziex](https://github.com/ziex-dev/ziex) - Full-stack web framework with HTML syntax within Zig code (163 stars)
 * [zml](https://github.com/orgs/zml/repositories) - Any model. Any hardware. Zero compromise. ML framework built with Zig (2.6K stars)
