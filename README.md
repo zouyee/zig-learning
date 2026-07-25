@@ -52,6 +52,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ## Books
 
+* [pedropark99/zig-book](https://github.com/pedropark99/zig-book) - An open, technical and introductory book for the Zig programming language (2.7K stars)
 * :star: [Zig Programming Language](https://ziglearn.org) - An introductory book on Zig, covering the basics to advanced topics.
 * :star: [zig-cookbook](https://cookbook.ziglang.cc/) - Simple Zig programs that demonstrate good practices to accomplish common programming tasks.
 
@@ -74,6 +75,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ### Presentations
 
+* 2026-06-16 - [Welcoming Our Newest Core Team Members](https://ziglang.org/news/welcoming-new-team-members/) - ziglang.org — Ryan Liptak, Ali Cheraghi, Justus Klausecker, Casey Banner, and Pavel Verigo join the core team
 * 2026-04-18 - [Core Team Member Spotlight: Alex Rønne Petersen](https://ziglang.org/news/) - ziglang.org
 * 2026-04-14 - [Zig 0.16.0 Release Notes](https://ziglang.org/download/0.16.0/release-notes.html) - Major release debuting I/O as an Interface, Juicy Main, and incremental compilation improvements
 * 2026-04-27 - [Zig explores structured concurrency](https://lwn.net/Articles/1067634/) - LWN.net coverage of Zig 0.16.0's new `Io` interface based on structured concurrency
@@ -98,7 +100,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 * :star: [Zig By Example](https://ziglang.org/learn/samples/)
 * [Why your first FizzBuzz implementation may not work](https://zig.guide/posts/fizz-buzz/)
-* :star: [Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one](https://github.com/oven-sh/bun) - Brian Anderson
+* :star: [Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one](https://github.com/oven-sh/bun) - Brian Anderson. (Note: Merged to main on 2026-05-14. The core has been rewritten from Zig to Rust.)
 * :star: [Building an HTTP client/server from scratch](https://blog.orhun.dev/zig-bits-04/) - A practical guide to building a web server in Zig.
 * [Writing a struct deserializer with Zig metaprogramming](https://nathancraddock.com/blog/deserialization-with-zig-metaprogramming/)
 * [Starting a new game dev project](https://www.youtube.com/watch?v=YiuCltFZldk) - A practical guide to building a new game dev project
@@ -217,27 +219,37 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 
 ### Notable Recent Projects
 
-* [CascadeOS](https://github.com/CascadeOS/CascadeOS) - General purpose operating system targeting standard desktops and laptops (115 stars)
-* [codedb](https://github.com/justrach/codedb) - Zig code intelligence server and MCP toolset for AI agents (781 stars)
-* [dusty](https://github.com/lalinsky/dusty) - HTTP client/server library for Zig (89 stars)
-* [dvui](https://github.com/david-vanderson/dvui) - Immediate Zig GUI for Apps and Games (1.4K stars)
-* [Ghostty](https://github.com/ghostty-org/ghostty) - Fast, feature-rich, cross-platform terminal emulator with GPU acceleration and native UI. Built with Zig (52K stars)
+* [arocc](https://github.com/Vexu/arocc) - A modern, fully featured C compiler written in Zig (1.8K stars)
+* [CascadeOS](https://github.com/CascadeOS/CascadeOS) - General purpose operating system targeting standard desktops and laptops (126 stars)
+* [codedb](https://github.com/justrach/codedb) - Zig code intelligence server and MCP toolset for AI agents (1.4K stars)
+* [Cubyz](https://github.com/PixelGuys/Cubyz) - Voxel sandbox game with a large render distance and procedurally generated content (3.6K stars)
+* [dusty](https://github.com/lalinsky/dusty) - HTTP client/server library for Zig (120 stars)
+* [dvui](https://github.com/david-vanderson/dvui) - Immediate Zig GUI for Apps and Games (1.6K stars)
+* [fizzy](https://github.com/fizzyedit/fizzy) - Pixel art editor made with Zig (renamed from pixi, 1.4K stars)
+* [Flow](https://github.com/neurocyte/flow) - Flow Control: a programmer's text editor (2.1K stars)
+* [Ghostty](https://github.com/ghostty-org/ghostty) - Fast, feature-rich, cross-platform terminal emulator with GPU acceleration and native UI. Built with Zig (58.6K stars)
+* [http.zig](https://github.com/karlseguin/http.zig) - An HTTP/1.1 server for Zig (1.6K stars)
+* [libvaxis](https://github.com/rockorager/libvaxis) - A modern TUI library written in Zig (1.9K stars)
 * [libxev](https://github.com/mitchellh/libxev) - Cross-platform, high-performance event loop for non-blocking IO, timers, events and more (3.5K stars)
-* [Lightpanda](https://github.com/lightpanda-io/browser) - Zig-built headless browser optimized for AI automation and scraping (8.2K stars)
-* [pixi](https://github.com/foxnne/pixi) - Pixel art editor made with Zig (1.3K stars)
-* [Regex.zig](https://github.com/quangd42/regex.zig) - Native Zig regex engine in the RE2 family with guaranteed linear time matching
+* [Lightpanda](https://github.com/lightpanda-io/browser) - Zig-built headless browser optimized for AI automation and scraping (32.1K stars)
+* [lsp-kit](https://github.com/zigtools/lsp-kit) - Building blocks to develop LSP implementations in Zig (renamed from zig-lsp-codegen, 167 stars)
+* [Mach](https://github.com/hexops/mach) - Zig game engine and graphics toolkit (4.8K stars)
+* [odiff](https://github.com/dmtrKovalenko/odiff) - A very fast SIMD-first image comparison library (3.1K stars)
+* [poop](https://github.com/andrewrk/poop) - Performance Optimizer Observation Platform by Andrew Kelley (2K stars)
+* [Regex.zig](https://github.com/quangdn42/regex.zig) - Native Zig regex engine in the RE2 family with guaranteed linear time matching
+* [river](https://github.com/riverwm/river) - A non-monolithic Wayland compositor (4.2K stars)
 * [wterm](https://github.com/vercel-labs/wterm) - Zig + WASM-powered browser-native terminal emulator by Vercel Labs
 * [Zeno](https://github.com/zeno-core/zeno) - High-performance embedded key-value storage engine with ART index (10M+ ops/sec)
-* [zig-lsp-codegen](https://github.com/zigtools/zig-lsp-codegen) - Building blocks to develop LSP implementations in Zig (147 stars)
+* [ziex](https://github.com/ziex-dev/ziex) - Full-stack web framework with HTML syntax within Zig code (304 stars)
 * [zig-lz4](https://github.com/jedisct1/zig-lz4) - LZ4 implementation in pure Zig
 * [zig-regex](https://github.com/zig-utils/zig-regex) - Modern, performant regular expression library
-* [ziglint](https://github.com/rockorager/ziglint) - Opinionated linting to keep your agent in check (35 stars)
-* [zmx](https://github.com/neurosnap/zmx) - Session persistence for terminal processes (1.4K stars)
-* [zio](https://github.com/lalinsky/zio) - Async I/O framework for Zig with epoll/io-uring support (413 stars)
-* [ziex](https://github.com/ziex-dev/ziex) - Full-stack web framework with HTML syntax within Zig code (163 stars)
-* [zml](https://github.com/orgs/zml/repositories) - Any model. Any hardware. Zero compromise. ML framework built with Zig (2.6K stars)
-* [zpdf](https://github.com/Lulzx/zpdf) - Zero-copy PDF text extraction library with SIMD acceleration (891 stars)
-* [zwanzig](https://github.com/forketyfork/zwanzig) - Static analyzer and linter for Zig (19 stars)
+* [ziglint](https://github.com/rockorager/ziglint) - Opinionated linting to keep your agent in check (53 stars)
+* [zio](https://github.com/lalinsky/zio) - Async I/O framework for Zig with epoll/io-uring support (565 stars)
+* [zls](https://github.com/zigtools/zls) - A language server for Zig with autocomplete, go-to-definition, and more (5K stars)
+* [zml](https://github.com/orgs/zml/repositories) - Any model. Any hardware. Zero compromise. ML framework built with Zig (3.9K stars)
+* [zmx](https://github.com/neurosnap/zmx) - Session persistence for terminal processes (1.9K stars)
+* [zpdf](https://github.com/Lulzx/zpdf) - Zero-copy PDF text extraction library with SIMD acceleration (912 stars)
+* [zwanzig](https://github.com/forketyfork/zwanzig) - Static analyzer and linter for Zig (27 stars)
 
 ## AI / Machine Learning
 
@@ -249,7 +261,7 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 
 ### AI Agents & Frameworks
 
-* [NullClaw](https://github.com/NullClaw/zig) - Full-stack AI agent framework in pure Zig. 678KB binary, ~1MB RAM, boots in 2ms. Supports 20+ LLM providers (2026)
+* [NullClaw](https://github.com/nullclaw/nullclaw) - Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig. Full-stack AI agent framework, supports 20+ LLM providers (7.8K stars, 2026)
 * [KrillClaw](https://github.com/krillclaw/KrillClaw) - World's smallest AI agent runtime (49KB/450KB binary). Written in Zig, zero dependencies. Runs on microcontrollers or cloud. Supports 20+ LLM providers (2026)
 * [zig-ai](https://github.com/FOLLGAD/zig-ai) - Simple OpenAI API client for Zig with streaming support
 * [zai](https://github.com/allisoneer/zai) - Multi-provider AI library for Zig (OpenAI-compatible, Amazon Bedrock, Anthropic)

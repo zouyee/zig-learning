@@ -57,6 +57,9 @@
         },
         {
             "pattern": "^https://www.huy.rocks"
+        },
+        {
+            "pattern": "^https://www.scattered-thoughts.net"
         }
     ]
 }
