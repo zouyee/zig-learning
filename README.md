@@ -75,6 +75,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ### Presentations
 
+* 2026-06-30 - [Zig Devlog: Build System Rework & Package Management Move](https://ziglang.org/devlog/2026/) - Package management moved from compiler to build system; 90% wall-time / 95.9% CPU cycle reduction for `zig build --help`
 * 2026-06-16 - [Welcoming Our Newest Core Team Members](https://ziglang.org/news/welcoming-new-team-members/) - ziglang.org — Ryan Liptak, Ali Cheraghi, Justus Klausecker, Casey Banner, and Pavel Verigo join the core team
 * 2026-04-18 - [Core Team Member Spotlight: Alex Rønne Petersen](https://ziglang.org/news/) - ziglang.org
 * 2026-04-14 - [Zig 0.16.0 Release Notes](https://ziglang.org/download/0.16.0/release-notes.html) - Major release debuting I/O as an Interface, Juicy Main, and incremental compilation improvements
@@ -220,6 +221,7 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 ### Notable Recent Projects
 
 * [arocc](https://github.com/Vexu/arocc) - A modern, fully featured C compiler written in Zig (1.8K stars)
+* [architect](https://github.com/forketyfork/architect) - Flexible terminal grid for multi-agent AI workflows (Claude Code, Codex, Gemini) built with Zig
 * [CascadeOS](https://github.com/CascadeOS/CascadeOS) - General purpose operating system targeting standard desktops and laptops (126 stars)
 * [codedb](https://github.com/justrach/codedb) - Zig code intelligence server and MCP toolset for AI agents (1.4K stars)
 * [Cubyz](https://github.com/PixelGuys/Cubyz) - Voxel sandbox game with a large render distance and procedurally generated content (3.6K stars)
@@ -257,6 +259,7 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * [zigformer](https://github.com/CogitatorTech/zigformer) - Educational transformer-based LLM in pure Zig
 * [llm.zig](https://github.com/Saimirbaci/llm.zig) - LLM implementation in Zig
 * [MLX.zig](https://github.com/jaco-bro/MLX.zig) - MLX (Apple Silicon ML framework) bindings for Zig - supports Phi-4, Llama 3.2, Whisper
+* [mlx-serve](https://github.com/ddalcu/mlx-serve) - Native Zig LLM inference server for Apple Silicon; OpenAI/Anthropic/Ollama-compatible APIs, single binary, no Python
 * [Implementing MNIST classifier from scratch in Zig](https://cernockyd.com/blog/implementing-mnist-classifier-from-scratch-in-zig) - Building a neural network from scratch in pure Zig
 
 ### AI Agents & Frameworks
