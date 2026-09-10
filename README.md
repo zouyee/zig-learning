@@ -75,6 +75,9 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ### Presentations
 
+* 2026-08-27 - [Zig Devlog: Pointer Stability for ArrayLists](https://ziglang.org/devlog/2026/) - `std.ArrayList` gains `lockPointers()`/`unlockPointers()` to catch pointer-stability bugs with a panic instead of silent corruption
+* 2026-06-26 - [Zig Devlog: SPIR-V Backend Progress](https://ziglang.org/devlog/2026/) - `@SpirvType`, execution modes on calling conventions, capabilities from CPU features, multi-threaded codegen, and object file linking
+* 2026-06-25 - [Zig Devlog: New @bitCast Semantics and LLVM Backend Improvements](https://ziglang.org/devlog/2026/) - Redefined `@bitCast` semantics plus LLVM backend integer lowering and performance work
 * 2026-06-30 - [Zig Devlog: Build System Rework & Package Management Move](https://ziglang.org/devlog/2026/) - Package management moved from compiler to build system; 90% wall-time / 95.9% CPU cycle reduction for `zig build --help`
 * 2026-06-16 - [Welcoming Our Newest Core Team Members](https://ziglang.org/news/welcoming-new-team-members/) - ziglang.org — Ryan Liptak, Ali Cheraghi, Justus Klausecker, Casey Banner, and Pavel Verigo join the core team
 * 2026-04-18 - [Core Team Member Spotlight: Alex Rønne Petersen](https://ziglang.org/news/) - ziglang.org
@@ -394,3 +397,4 @@ of interest if you're running a workshop on Zig.
 * orhun's [Zig Bits](https://blog.orhun.dev/zig-bits-01/) focusing on practical library implementation in Zig.  
 * [A half-hour to learn Zig](https://gist.github.com/ityonemo/769532c2017ed9143f3571e5ac104e50) this is inspired by [a-half-hour-to-learn-rust](https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/)
 * [A Unix Shell in Zig](https://ratfactor.com/zig/forking-is-cool) exploration combining Zig with scripting tools.
+* [8 Best Zig Courses for 2026](https://www.classcentral.com/report/best-zig-courses/) - Class Central's curated guide to Zig learning resources, current as of mid-2026 with the compiler version each course targets.
