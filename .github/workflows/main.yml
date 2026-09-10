@@ -8,7 +8,7 @@ jobs:
       - uses: DavidAnson/markdownlint-cli2-action@v16
         with:
           globs: |
-            *.md
+            **/*.md
             #MAINTAINERS.md
 
   check_links:
@@ -24,4 +24,4 @@ jobs:
         run: npm ci
 
       - name: Check links
-        run: npx markdown-link-check -c .markdown-link-check-config.json README.md
+        run: npx markdown-link-check -c .markdown-link-check-config.json README.md archive/*.md

@@ -49,6 +49,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 * [Connection](#connection)
   * [Fearless Zig Bloggers](#fearless-zig-bloggers)
 * [Tutorials & Workshop Materials](#tutorials--workshop-materials)
+* [Archive](archive/) - older entries grouped by year
 
 ## Books
 
@@ -84,18 +85,14 @@ The main documentation is always the best beginning, so if you haven't read it y
 * 2026-04-14 - [Zig 0.16.0 Release Notes](https://ziglang.org/download/0.16.0/release-notes.html) - Major release debuting I/O as an Interface, Juicy Main, and incremental compilation improvements
 * 2026-04-27 - [Zig explores structured concurrency](https://lwn.net/Articles/1067634/) - LWN.net coverage of Zig 0.16.0's new `Io` interface based on structured concurrency
 * 2025-11-26 - [Migrating from GitHub to Codeberg](https://ziglang.org/news/migrating-from-github-to-codeberg/) - Zig project officially moves its canonical repository from GitHub to Codeberg
-* 2023-10-04 - [Rust & Zig Combined • Richard Feldman • GOTO 2023](https://www.youtube.com/watch?v=jIZpKpLCOiU) - Richard Feldman
-* 2022-10-04 - [Intro to the Zig Programming Language • Andrew Kelley • GOTO 2022](https://www.youtube.com/watch?v=YXrb-DqsBNU)- Andrew Kelley
-* 2019-04-23 - [Andrew Kelley - The Zen of Zig](https://www.youtube.com/watch?v=Gv2I7qTux7g) - A presentation by the creator of Zig, explaining its philosophy and features.
-* 2024-09-30 - [Pragma driven shared memory parallelism in Zig by supporting OpenMP loop directives](https://arxiv.org/html/2409.20148v1) - In this paper they describe enhancing the Zig compiler to add support for OpenMP loop directives.
 * 2025-02-01 - [Small headed programming for performance with prescheme, nim and zig](https://archive.fosdem.org/2025/schedule/event/fosdem-2025-5848-small-headed-programming-for-performance-with-prescheme-nim-and-zig/) - FOSDEM 2025
+
+Older presentations (2024 and earlier) have been moved to the [archive](archive/).
 
 ## Podcasts
 
-* 2024-07-14 - [Zig as a Multi-OS Build System (with Loris Cro)](https://open.spotify.com/episode/1CKAVEQfS0aVWV5GuT96AF) - Loris Cro
-* 2022-07-01 - [Full-Time Open Source With Andrew Kelley](https://corecursive.com/067-zig-with-andrew-kelley/)
-* 2022-06-24 - [Zig with Andrew Kelley](https://rustacean-station.org/episode/andrew-kelley/)
-* 2022-01-24 - [Zig and Zigler with Isaac Yonemoto](https://podcast.thinkingelixir.com/83) - Isaac Yonemoto
+Older podcasts (2024 and earlier) have been moved to the [archive](archive/).
+
 * 2025-05-29 - [Exploring the Zig programming language with Loris Cro](https://podcasts.apple.com/ng/podcast/exploring-the-zig-programming-language-with-loris-cro/id1740467376) - Coding Chats
 * 2025-10-09 - [Zig Creator Andrew Kelley](https://www.youtube.com/watch?v=w74rC-6caxE) - Software Unscripted
 * 2025-12-25 - [Loris Cro on the Rise of Zig](https://hanselminutes.com/1029/loris-cro-on-the-rise-of-zig) - Hanselminutes

@@ -10,4 +10,4 @@ jobs:
           node-version: 19
 
       - name: Lint markdown
-        run: npx markdownlint-cli2 "*.md" "#MAINTAINERS.md"
+        run: npx markdownlint-cli2 "**/*.md" "#MAINTAINERS.md"
