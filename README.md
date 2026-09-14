@@ -69,6 +69,11 @@ The main documentation is always the best beginning, so if you haven't read it y
 * [I Made My Own OS Using Zig!](https://www.youtube.com/watch?v=KMgUgPFHL7Y) - Emez Labs
 * [Zig Development Async/Await Resurrection](https://www.youtube.com/watch?v=0kUvoU60pbc) - Andrewrok Archives
 * [Data-Oriented Design Revisited: Type Safety in the Zig Compiler](https://www.youtube.com/watch?v=KOZcJwGdQok) - Matthew Lugg
+* [Zigtoberfest 2026 Live Stream](https://youtu.be/Hp6z1eNRQCo) - Full recording of the Munich conference, including Loris Cro's keynote and 6 talks
+* [Zig 0.16 IO: Everything You Need to Know](https://youtu.be/BUX01em5eG4) - Pokelego Dev explains the new `std.Io` interface in Zig 0.16
+* [What Changed in Zig 0.16.0 — Standard Library Breaking Changes](https://youtu.be/gigcEucB0CQ) - Ziggurat
+* [How to Actually Learn Zig (2027 Edition)](https://youtu.be/dYGSPyp41vY) - An up-to-date learning path and resource guide
+* [Can Zig Beat Unity's Burst Compiler?](https://youtu.be/EHeZN_I45EQ) - git-amend benchmarks Zig against Unity's Burst compiler
 
 ### Playlists
 
@@ -106,6 +111,8 @@ Older podcasts (2024 and earlier) have been moved to the [archive](archive/).
 * [Writing a struct deserializer with Zig metaprogramming](https://nathancraddock.com/blog/deserialization-with-zig-metaprogramming/)
 * [Starting a new game dev project](https://www.youtube.com/watch?v=YiuCltFZldk) - A practical guide to building a new game dev project
 * [Exploring Zig Programming Language with The Mandelbrot Set](https://www.rdiachenko.com/posts/zig/exploring-ziglang-with-mandelbrot-set/) - Explore Zig by building a program that plots the Mandelbrot set
+* [Writergate: Zig I/O Interface Overhaul](https://alexrios.me/blog/writergate/) - Alex Rios walks through the 0.16 `std.Io` vtable architecture that replaced `GenericWriter`, including how to implement a custom Writer
+* [Zig's Io.Threaded is neat](https://matklad.github.io/2026/08/06/neat-io-threaded.html) - matklad dissects how `std.Io.Threaded` achieves reliable cancellation on blocking syscalls
 
 ## Best Practices/Style Guides
 
@@ -204,7 +211,7 @@ Older podcasts (2024 and earlier) have been moved to the [archive](archive/).
 | **C** | <ul><li>[Meet Zig: The modern alternative to C](https://www.infoworld.com/article/2338081/meet-the-zig-programming-language.html#:~:text=Zig%20is%20strongly%20typed%20and,parameters%20(%20arg%3A%20anytype%20).) - infoWorld</li><li>[Zig is more pragmatic than C](https://andrewkelley.me/post/intro-to-zig.html) - Andrew Kelley</li><li>[Zig: Already More Knowable Than C](https://andrewkelley.me/post/zig-already-more-knowable-than-c.html) - Andrew Kelley</li><li>[A "BETTER C" BENCHMARK](https://zserge.com/posts/better-c-benchmark/) - Serge</li></ul> |
 | **C++** | <ul><li>[Why Zig When There is Already C++, D, and Rust?](https://ziglang.org/learn/why_zig_rust_d_cpp/) - Zig Community</li><li>[Goodbye to the C++ Implementation of Zig](https://ziglang.org/news/goodbye-cpp/) - Zig Community</li><li>[Memory Safety in C++ vs Rust vs Zig](https://medium.com/@shyamsundarb/memory-safety-in-c-vs-rust-vs-zig-f78fa903f41e) - B Shyam Sundar</li><li>[Software Reliability C++ vs Zig](https://erik-engheim.medium.com/software-reliability-c-vs-zig-dbb2d0005b9c) - Erik Engheim</li></ul> |
 | **Go** | <ul><li>[The Zig and Go Programming Showdown!](https://erikexplores.substack.com/p/the-zig-and-go-programming-showdown) - ERIK ENGHEIM</li><li>[Zig Makes Go Cross Compilation Just Work](https://dev.to/kristoff/zig-makes-go-cross-compilation-just-work-29ho) - Loris Cro</li></ul> |
-| **Rust** | <ul><li>[How (memory) safe is zig?](https://www.scattered-thoughts.net/writing/how-safe-is-zig/) - Jamie Brandon</li><li>[Comparing Rust vs. Zig: Performance, safety, and more](https://blog.logrocket.com/comparing-rust-vs-zig-performance-safety-more/) - Eze Sunday</li><li>[Zero Cost Abstractions in C++20, Rust, & Zig](https://www.youtube.com/watch?v=43X9ia-qpds) - Context Free</li></ul> |
+| **Rust** | <ul><li>[How (memory) safe is zig?](https://www.scattered-thoughts.net/writing/how-safe-is-zig/) - Jamie Brandon</li><li>[Comparing Rust vs. Zig: Performance, safety, and more](https://blog.logrocket.com/comparing-rust-vs-zig-performance-safety-more/) - Eze Sunday</li><li>[Zero Cost Abstractions in C++20, Rust, & Zig](https://www.youtube.com/watch?v=43X9ia-qpds) - Context Free</li><li>[What Zig felt like, coming from Rust](https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/) - besok, rewriting a JSONPath (RFC 9535) library in Zig</li></ul> |
 | **Python** | <ul><li>[How to create Zig Binding for Python to create compiled and optimized libraries](https://z-uo.medium.com/zig-python-easy-optimized-f64341625d04) - Nicola Landro</li><li>[Speeding up Python with Zig](https://2022.pycon.de/program/DFWSQR/) - Adam Serafini</li></ul> |
 | **JavaScript** | <ul><li>[Access the JS host environment from Zig compiled to WebAssembly.](https://github.com/mitchellh/zig-js) - mitchellh</li><li>[Zig vs JavaScript](https://www.brochweb.com/blog/post/zig-vs-javascript/) - Asher White</li></ul> |
 | **Java** | <ul><li>[Zig structs vs Java classes](https://ziggit.dev/t/zig-structs-vs-java-classes/4637/2) - ziggit.dev</li></ul> |
@@ -227,10 +234,14 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * [Cubyz](https://github.com/PixelGuys/Cubyz) - Voxel sandbox game with a large render distance and procedurally generated content (3.6K stars)
 * [dusty](https://github.com/lalinsky/dusty) - HTTP client/server library for Zig (120 stars)
 * [dvui](https://github.com/david-vanderson/dvui) - Immediate Zig GUI for Apps and Games (1.6K stars)
+* [emibios](https://github.com/coolbho3k/emibios) - GBA BIOS replacement written in Zig
+* [fx](https://github.com/vercel-labs/fx) - Unix-style AI coding agent CLI written in Zig by Vercel Labs; 6MB single binary, embeddable via WASM/ACP (2.9K stars)
 * [fizzy](https://github.com/fizzyedit/fizzy) - Pixel art editor made with Zig (renamed from pixi, 1.4K stars)
 * [Flow](https://github.com/neurocyte/flow) - Flow Control: a programmer's text editor (2.1K stars)
 * [Ghostty](https://github.com/ghostty-org/ghostty) - Fast, feature-rich, cross-platform terminal emulator with GPU acceleration and native UI. Built with Zig (58.6K stars)
 * [http.zig](https://github.com/karlseguin/http.zig) - An HTTP/1.1 server for Zig (1.6K stars)
+* [huntclaw](https://github.com/NOOUBY-DEV/huntclaw) - Blazing-fast find-and-replace command-line tool
+* [lgtm](https://github.com/kunkka19xx/lgtm) - Terminal diff review TUI for agentic coding, vim keybindings, re-renders live as the agent works
 * [libvaxis](https://github.com/rockorager/libvaxis) - A modern TUI library written in Zig (1.9K stars)
 * [libxev](https://github.com/mitchellh/libxev) - Cross-platform, high-performance event loop for non-blocking IO, timers, events and more (3.5K stars)
 * [Lightpanda](https://github.com/lightpanda-io/browser) - Zig-built headless browser optimized for AI automation and scraping (32.1K stars)
@@ -269,6 +280,8 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * [zig-ai](https://github.com/FOLLGAD/zig-ai) - Simple OpenAI API client for Zig with streaming support
 * [zai](https://github.com/allisoneer/zai) - Multi-provider AI library for Zig (OpenAI-compatible, Amazon Bedrock, Anthropic)
 * [ZigNet](https://github.com/fulgidus/zignet) - MCP server for Zig with AI-powered code analysis, validation, and documentation (fine-tuned LLM)
+* [x64dbg-mcp-server](https://github.com/duty1g/x64dbg-mcp-server) - Pure Zig x64dbg MCP plugin exposing 84 debugging tools so AI assistants can do automated reverse engineering (2K stars)
+* [chock](https://github.com/LilithSemi/chock) - Sandbox-first AI coding harness (Linux namespaces/Landlock + macOS Seatbelt), built with Zig 0.16
 
 ### Deep Learning & Inference
 
