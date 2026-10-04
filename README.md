@@ -81,6 +81,9 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ### Presentations
 
+* 2026-10-02 - [Zig 0.17.0 Release Notes](https://ziglang.org/download/0.17.0/release-notes.html) - Build system reworked with the new Build Server Protocol; ELF linker improvements bring incremental compilation to x86_64-linux
+* 2026-09-23 - [The Zig Journey](https://kristoff.it/blog/the-zig-journey/) - Loris Cro's Zigtoberfest 2026 opening remarks: how to approach Zig as a newcomer, intermediate, or advanced user
+* 2026-09-12 - [Building PKCS#11 Modules](https://www.youtube.com/watch?v=u6kGCTLCt2w) - Nikola Ubavić on PKCS#11 fundamentals, recorded at Zigtoberfest 2026 in Munich
 * 2026-08-27 - [Zig Devlog: Pointer Stability for ArrayLists](https://ziglang.org/devlog/2026/) - `std.ArrayList` gains `lockPointers()`/`unlockPointers()` to catch pointer-stability bugs with a panic instead of silent corruption
 * 2026-06-26 - [Zig Devlog: SPIR-V Backend Progress](https://ziglang.org/devlog/2026/) - `@SpirvType`, execution modes on calling conventions, capabilities from CPU features, multi-threaded codegen, and object file linking
 * 2026-06-25 - [Zig Devlog: New @bitCast Semantics and LLVM Backend Improvements](https://ziglang.org/devlog/2026/) - Redefined `@bitCast` semantics plus LLVM backend integer lowering and performance work
@@ -113,6 +116,7 @@ Older podcasts (2024 and earlier) have been moved to the [archive](archive/).
 * [Exploring Zig Programming Language with The Mandelbrot Set](https://www.rdiachenko.com/posts/zig/exploring-ziglang-with-mandelbrot-set/) - Explore Zig by building a program that plots the Mandelbrot set
 * [Writergate: Zig I/O Interface Overhaul](https://alexrios.me/blog/writergate/) - Alex Rios walks through the 0.16 `std.Io` vtable architecture that replaced `GenericWriter`, including how to implement a custom Writer
 * [Zig's Io.Threaded is neat](https://matklad.github.io/2026/08/06/neat-io-threaded.html) - matklad dissects how `std.Io.Threaded` achieves reliable cancellation on blocking syscalls
+* [Cancelation Terminology](https://matklad.github.io/2026/08/31/cancelation-terminology.html) - matklad distinguishes synchronous cancelation, asynchronous cancelation, and graceful shutdown
 
 ## Best Practices/Style Guides
 
@@ -141,6 +145,7 @@ Older podcasts (2024 and earlier) have been moved to the [archive](archive/).
 ## Zig internals
 
 * :star: [Codeberg Repository](https://codeberg.org/ziglang/zig) - Official Zig repository after migrating from GitHub to Codeberg (November 2025)
+* :star: [Zig 0.17.0 Release Notes](https://ziglang.org/download/0.17.0/release-notes.html) - Build system reworked with Build Server Protocol, ELF linker improvements, incremental compilation on x86_64-linux
 * :star: [Zig 0.16.0 Release Notes](https://ziglang.org/download/0.16.0/release-notes.html) - Major release with I/O as Interface, Juicy Main, and incremental compilation improvements
 * :star: [Zig Community Forum](https://ziggit.dev/) - A discussion platform for Zig language design, development news, and technical questions.
 * :star: [Zig Documentation](https://ziglang.org/documentation/master/) - The official and comprehensive documentation for understanding Zig’s features and syntax.
@@ -240,17 +245,23 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * [Flow](https://github.com/neurocyte/flow) - Flow Control: a programmer's text editor (2.1K stars)
 * [Ghostty](https://github.com/ghostty-org/ghostty) - Fast, feature-rich, cross-platform terminal emulator with GPU acceleration and native UI. Built with Zig (58.6K stars)
 * [http.zig](https://github.com/karlseguin/http.zig) - An HTTP/1.1 server for Zig (1.6K stars)
+* [haunt](https://github.com/anomalyco/haunt) - Full-screen terminal home for programmable Lua widgets with OpenTUI rendering (34 stars)
 * [huntclaw](https://github.com/NOOUBY-DEV/huntclaw) - Blazing-fast find-and-replace command-line tool
+* [knots](https://github.com/knots-ui/knots) - High performance cross-platform immediate-mode GUI rendering library (37 stars)
 * [lgtm](https://github.com/kunkka19xx/lgtm) - Terminal diff review TUI for agentic coding, vim keybindings, re-renders live as the agent works
 * [libvaxis](https://github.com/rockorager/libvaxis) - A modern TUI library written in Zig (1.9K stars)
 * [libxev](https://github.com/mitchellh/libxev) - Cross-platform, high-performance event loop for non-blocking IO, timers, events and more (3.5K stars)
 * [Lightpanda](https://github.com/lightpanda-io/browser) - Zig-built headless browser optimized for AI automation and scraping (32.1K stars)
 * [lsp-kit](https://github.com/zigtools/lsp-kit) - Building blocks to develop LSP implementations in Zig (renamed from zig-lsp-codegen, 167 stars)
 * [Mach](https://github.com/hexops/mach) - Zig game engine and graphics toolkit (4.8K stars)
+* [oksolc](https://github.com/okcontract/oksolc) - A Solidity compiler written in Zig (55 stars)
 * [odiff](https://github.com/dmtrKovalenko/odiff) - A very fast SIMD-first image comparison library (3.1K stars)
 * [poop](https://github.com/andrewrk/poop) - Performance Optimizer Observation Platform by Andrew Kelley (2K stars)
 * [Regex.zig](https://github.com/quangdn42/regex.zig) - Native Zig regex engine in the RE2 family with guaranteed linear time matching
+* [ringzero](https://github.com/immanuwell/ringzero) - 9M+ packets/sec L4 load balancer, XDP learning project (43 stars)
 * [river](https://github.com/riverwm/river) - A non-monolithic Wayland compositor (4.2K stars)
+* [rst](https://github.com/rauchg/rst) - Fast terminal reset for macOS and Linux (~2ms vs ~1s for `reset`), 162KB self-contained binary (72 stars)
+* [sushi](https://github.com/beamivalice/sushi) - High quality quantized LLM inference engine for Apple Silicon with hybrid affine/exl3 (122 stars)
 * [wterm](https://github.com/vercel-labs/wterm) - Zig + WASM-powered browser-native terminal emulator by Vercel Labs
 * [Zeno](https://github.com/zeno-core/zeno) - High-performance embedded key-value storage engine with ART index (10M+ ops/sec)
 * [ziex](https://github.com/ziex-dev/ziex) - Full-stack web framework with HTML syntax within Zig code (304 stars)
@@ -262,6 +273,7 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * [zml](https://github.com/orgs/zml/repositories) - Any model. Any hardware. Zero compromise. ML framework built with Zig (3.9K stars)
 * [zmx](https://github.com/neurosnap/zmx) - Session persistence for terminal processes (1.9K stars)
 * [zpdf](https://github.com/Lulzx/zpdf) - Zero-copy PDF text extraction library with SIMD acceleration (912 stars)
+* [zeptun](https://github.com/Noisemux/zeptun) - High-performance tun2socks engine in Zig with TCP, UDP, ICMP, SOCKS5, io_uring, and C API (121 stars)
 * [zwanzig](https://github.com/forketyfork/zwanzig) - Static analyzer and linter for Zig (27 stars)
 
 ## AI / Machine Learning

@@ -59,6 +59,9 @@
             "pattern": "^https://www.huy.rocks"
         },
         {
+            "pattern": "^https://www.classcentral.com"
+        },
+        {
             "pattern": "^https://www.scattered-thoughts.net"
         }
     ]
