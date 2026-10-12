@@ -74,6 +74,8 @@ The main documentation is always the best beginning, so if you haven't read it y
 * [What Changed in Zig 0.16.0 — Standard Library Breaking Changes](https://youtu.be/gigcEucB0CQ) - Ziggurat
 * [How to Actually Learn Zig (2027 Edition)](https://youtu.be/dYGSPyp41vY) - An up-to-date learning path and resource guide
 * [Can Zig Beat Unity's Burst Compiler?](https://youtu.be/EHeZN_I45EQ) - git-amend benchmarks Zig against Unity's Burst compiler
+* [Pushing CSV to the Limits](https://www.youtube.com/watch?v=f1wETGXJ2Fw) - Peyman Mortazavi's Zigtoberfest 2026 talk on high-performance CSV parsing in Zig
+* [Zig 0.17 Release Notes — TLDR Highlights](https://www.youtube.com/watch?v=yWZxuZoH3j0) - A short rundown of the Zig 0.17 release highlights
 
 ### Playlists
 
@@ -117,6 +119,8 @@ Older podcasts (2024 and earlier) have been moved to the [archive](archive/).
 * [Writergate: Zig I/O Interface Overhaul](https://alexrios.me/blog/writergate/) - Alex Rios walks through the 0.16 `std.Io` vtable architecture that replaced `GenericWriter`, including how to implement a custom Writer
 * [Zig's Io.Threaded is neat](https://matklad.github.io/2026/08/06/neat-io-threaded.html) - matklad dissects how `std.Io.Threaded` achieves reliable cancellation on blocking syscalls
 * [Cancelation Terminology](https://matklad.github.io/2026/08/31/cancelation-terminology.html) - matklad distinguishes synchronous cancelation, asynchronous cancelation, and graceful shutdown
+* [What Zig 0.17 Means for Systems Programming with Zig](https://www.mtsoukalos.eu/2026/10/zig-0.17-and-systems-programming-with-zig/) - Mihalis Tsoukalos compiles all 152 examples from his book against Zig 0.17 and documents what breaks (mostly `@cImport` removal)
+* [High-Throughput OLTP in Three Simple Steps](https://tigerbeetle.com/blog/2026-09-17-performant-use-of-tigerbeetle/) - TigerBeetle's engineering notes on achieving high-throughput OLTP in a pure-Zig codebase
 
 ## Best Practices/Style Guides
 
@@ -130,6 +134,7 @@ Older podcasts (2024 and earlier) have been moved to the [archive](archive/).
 * [A TypeScripter's Take on Zig (Advent of Code 2023)](https://effectivetypescript.com/2024/07/17/advent2023-zig/)
 * [Zig in Depth: A video course that covers the Zig programming language in depth.](https://www.youtube.com/playlist?list=PLtB7CL7EG7pCw7Xy1SQC53Gl8pI7aDg9t)
 * [Zig Type Resolution Redesign and Language Changes in 2026](https://sesamedisk.com/zig-type-resolution-redesign-2026/) - Overview of Zig's type resolution overhaul, lazy field analysis, and incremental compilation improvements
+* [Static Allocation, Constant Work](https://matklad.github.io/2026/09/02/static-allocation-constant-work.html) - matklad on TigerStyle's "no dynamic allocation after startup" and "constant work" rules, with Zig examples (object pools, reserved-state objects)
 
 ## Cheat sheets
 
@@ -172,6 +177,8 @@ Older podcasts (2024 and earlier) have been moved to the [archive](archive/).
 * **[Zig and Dynamic Libraries: Working with .so and .dll](https://ziggit.dev/t/zig-to-zig-dynamic-libraries-modules/6775)** - A blog post that explores how to build dynamic libraries (.so and .dll) using Zig. This is particularly useful when you need to create shared libraries for FFI purposes.
 
 * **[Integrating Zig with Rust for FFI](https://dev.to/mustafif/using-zig-in-rust-160p)** - A tutorial on how to create a Rust-Zig integration, using Zig’s FFI to enhance performance or utilize Zig’s unique features.
+
+* **[@cImport() Is Gone in Zig 0.17](https://www.mtsoukalos.eu/2026/10/cimport-removed-in-zig-0.17/)** - `@cImport` was fully removed in Zig 0.17; this post walks through migrating to `zig translate-c` plus a regular `@import()` for C headers.
 
 ## CI / Testing
 
