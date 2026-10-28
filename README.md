@@ -83,6 +83,9 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ### Presentations
 
+* 2026-10-24 - [Zig Devlog: Partial Operator Precedence](https://ziglang.org/devlog/2026/) - Confusing operator combinations no longer have default precedence (proposal #114 lands); `zig fmt --upgrade` migrates automatically
+* 2026-10-20 - [Zig Devlog: Naked Package Metadata](https://ziglang.org/devlog/2026/) - Package metadata is now processed independently of build scripts
+* 2026-10-14 - [Zig Devlog: Package Hash Consistency Validation](https://ziglang.org/devlog/2026/) - Supply-chain hardening via package hash consistency checks
 * 2026-10-02 - [Zig 0.17.0 Release Notes](https://ziglang.org/download/0.17.0/release-notes.html) - Build system reworked with the new Build Server Protocol; ELF linker improvements bring incremental compilation to x86_64-linux
 * 2026-09-23 - [The Zig Journey](https://kristoff.it/blog/the-zig-journey/) - Loris Cro's Zigtoberfest 2026 opening remarks: how to approach Zig as a newcomer, intermediate, or advanced user
 * 2026-09-12 - [Building PKCS#11 Modules](https://www.youtube.com/watch?v=u6kGCTLCt2w) - Nikola Ubavić on PKCS#11 fundamentals, recorded at Zigtoberfest 2026 in Munich
@@ -94,6 +97,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 * 2026-04-18 - [Core Team Member Spotlight: Alex Rønne Petersen](https://ziglang.org/news/) - ziglang.org
 * 2026-04-14 - [Zig 0.16.0 Release Notes](https://ziglang.org/download/0.16.0/release-notes.html) - Major release debuting I/O as an Interface, Juicy Main, and incremental compilation improvements
 * 2026-04-27 - [Zig explores structured concurrency](https://lwn.net/Articles/1067634/) - LWN.net coverage of Zig 0.16.0's new `Io` interface based on structured concurrency
+* 2026-09-23 - [Andrew Kelley on Why He Built Zig, Banning AI Contributions, and Moving off GitHub](https://www.infoq.com/news/2026/09/andrew-kelley-zig-no-ai/) - InfoQ write-up of JetBrains' interview with Andrew Kelley
 * 2025-11-26 - [Migrating from GitHub to Codeberg](https://ziglang.org/news/migrating-from-github-to-codeberg/) - Zig project officially moves its canonical repository from GitHub to Codeberg
 * 2025-02-01 - [Small headed programming for performance with prescheme, nim and zig](https://archive.fosdem.org/2025/schedule/event/fosdem-2025-5848-small-headed-programming-for-performance-with-prescheme-nim-and-zig/) - FOSDEM 2025
 
@@ -121,6 +125,9 @@ Older podcasts (2024 and earlier) have been moved to the [archive](archive/).
 * [Cancelation Terminology](https://matklad.github.io/2026/08/31/cancelation-terminology.html) - matklad distinguishes synchronous cancelation, asynchronous cancelation, and graceful shutdown
 * [What Zig 0.17 Means for Systems Programming with Zig](https://www.mtsoukalos.eu/2026/10/zig-0.17-and-systems-programming-with-zig/) - Mihalis Tsoukalos compiles all 152 examples from his book against Zig 0.17 and documents what breaks (mostly `@cImport` removal)
 * [High-Throughput OLTP in Three Simple Steps](https://tigerbeetle.com/blog/2026-09-17-performant-use-of-tigerbeetle/) - TigerBeetle's engineering notes on achieving high-throughput OLTP in a pure-Zig codebase
+* [Finding Bugs](https://matklad.github.io/2026/09/19/finding-bugs.html) - matklad on systematic approaches to discovering bugs, continuing the deterministic simulation testing series
+* [Benchmark In Milliseconds](https://matklad.github.io/2026/10/05/benchmark-in-milliseconds.html) - matklad's practical notes on driving performance work with millisecond-scale benchmarks
+* [A Terminal Protocol for Program Status (OSC 7501)](https://mitchellh.com/writing/osc-7501) - Mitchell Hashimoto proposes a new terminal escape protocol for reporting program status
 
 ## Best Practices/Style Guides
 
@@ -139,7 +146,7 @@ Older podcasts (2024 and earlier) have been moved to the [archive](archive/).
 ## Cheat sheets
 
 * :star: [Syntax Index](https://ziglang.org/documentation/master/) - Official documentation covering Zig's syntax and key concepts.
-* [Community Zig Tutorials](https://zig.news/) - A portal for discovering new Zig tutorials and community-driven content.
+* [Community Zig Tutorials](https://zig.news/) - :end: A portal for discovering new Zig tutorials (first iteration offline as of late 2026).
 * [Zig Cheat Sheet](https://gist.github.com/jdmichaud/b75ee234bfa87283a6337e06a3b70767) - A handy reference guide with key Zig programming concepts and syntax patterns, created by a Zig community member.
 * [Zig Language Patterns](https://github.com/SuperAuguste/zig-patterns) - Best practices and design patterns written by Andrew Kelley, the creator of Zig.
 * [Zig Learn](https://ziglearn.org/) - A community-maintained guide for beginners, offering an introduction to Zig's core features with practical examples.
@@ -281,6 +288,10 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * [zmx](https://github.com/neurosnap/zmx) - Session persistence for terminal processes (1.9K stars)
 * [zpdf](https://github.com/Lulzx/zpdf) - Zero-copy PDF text extraction library with SIMD acceleration (912 stars)
 * [zeptun](https://github.com/Noisemux/zeptun) - High-performance tun2socks engine in Zig with TCP, UDP, ICMP, SOCKS5, io_uring, and C API (121 stars)
+* [csvql](https://github.com/melihbirim/csvql) - CSV SQL query engine CLI aimed at AI agents
+* [oxwm](https://github.com/tonybanters/oxwm) - A window manager written in Zig
+* [Rex](https://mitchellh.com/writing/superlogical) - Superlogical's terminal multiplexer by Mitchell Hashimoto, public beta on macOS (Oct 2026)
+* [TensorFold](https://github.com/ashhart/TensorFold) - Pure Zig LLM inference engine with Metal/CUDA/Vulkan backends (1.5K stars)
 * [zwanzig](https://github.com/forketyfork/zwanzig) - Static analyzer and linter for Zig (27 stars)
 
 ## AI / Machine Learning
