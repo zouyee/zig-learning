@@ -83,6 +83,7 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ### Presentations
 
+* 2026-11-03 - [Zig 0.17.1 Released](https://ziglang.org/news/0.17.1-released/) - Bug fix release addressing 57+ issues reported after the 0.17.0 release
 * 2026-10-24 - [Zig Devlog: Partial Operator Precedence](https://ziglang.org/devlog/2026/) - Confusing operator combinations no longer have default precedence (proposal #114 lands); `zig fmt --upgrade` migrates automatically
 * 2026-10-20 - [Zig Devlog: Naked Package Metadata](https://ziglang.org/devlog/2026/) - Package metadata is now processed independently of build scripts
 * 2026-10-14 - [Zig Devlog: Package Hash Consistency Validation](https://ziglang.org/devlog/2026/) - Supply-chain hardening via package hash consistency checks
@@ -157,6 +158,7 @@ Older podcasts (2024 and earlier) have been moved to the [archive](archive/).
 ## Zig internals
 
 * :star: [Codeberg Repository](https://codeberg.org/ziglang/zig) - Official Zig repository after migrating from GitHub to Codeberg (November 2025)
+* :star: [Zig 0.17.1 Release Notes](https://ziglang.org/news/0.17.1-released/) - Bug fix release addressing 57+ issues reported after 0.17.0
 * :star: [Zig 0.17.0 Release Notes](https://ziglang.org/download/0.17.0/release-notes.html) - Build system reworked with Build Server Protocol, ELF linker improvements, incremental compilation on x86_64-linux
 * :star: [Zig 0.16.0 Release Notes](https://ziglang.org/download/0.16.0/release-notes.html) - Major release with I/O as Interface, Juicy Main, and incremental compilation improvements
 * :star: [Zig Community Forum](https://ziggit.dev/) - A discussion platform for Zig language design, development news, and technical questions.
