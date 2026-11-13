@@ -127,8 +127,9 @@ Older podcasts (2024 and earlier) have been moved to the [archive](archive/).
 * [What Zig 0.17 Means for Systems Programming with Zig](https://www.mtsoukalos.eu/2026/10/zig-0.17-and-systems-programming-with-zig/) - Mihalis Tsoukalos compiles all 152 examples from his book against Zig 0.17 and documents what breaks (mostly `@cImport` removal)
 * [High-Throughput OLTP in Three Simple Steps](https://tigerbeetle.com/blog/2026-09-17-performant-use-of-tigerbeetle/) - TigerBeetle's engineering notes on achieving high-throughput OLTP in a pure-Zig codebase
 * [Finding Bugs](https://matklad.github.io/2026/09/19/finding-bugs.html) - matklad on systematic approaches to discovering bugs, continuing the deterministic simulation testing series
-* [Benchmark In Milliseconds](https://matklad.github.io/2026/10/05/benchmark-in-milliseconds.html) - matklad's practical notes on driving performance work with millisecond-scale benchmarks
-* [A Terminal Protocol for Program Status (OSC 7501)](https://mitchellh.com/writing/osc-7501) - Mitchell Hashimoto proposes a new terminal escape protocol for reporting program status
+* [Benchmark In Milliseconds](https://matklad.github.io/2026/10/05/benchmark-milliseconds.html) - matklad's practical notes on driving performance work with millisecond-scale benchmarks
+* [A Terminal Protocol for Program Status (OSC 7501)](https://mitchellh.com/writing/program-status-osc7501) - Mitchell Hashimoto proposes a new terminal escape protocol for reporting program status
+* [Migrating cmdtest from Zig 0.15 to 0.16](https://probablyrevert.com/blog/2026-06-23-migrating-cmdtest-zig-015-to-016) - Hands-on migration notes: explicit `Io` parameters, `process.spawn`, `MultiReader`, and the `std.process.Init` struct
 
 ## Best Practices/Style Guides
 
@@ -154,6 +155,7 @@ Older podcasts (2024 and earlier) have been moved to the [archive](archive/).
 * [Zig Memory Management Guide](https://ziglang.org/documentation/master/#Memory) - Useful tips and tricks for managing memory safely and efficiently in Zig.
 * [Zig Playground](https://zig-play.dev/) - An online environment for experimenting with Zig code snippets and testing ideas quickly.
 * [Zig Standard Library Overview](https://ziglang.org/documentation/master/std/) - A detailed overview of Zig's standard library, ideal for understanding built-in utilities and functions.
+* [Learn X in Y Minutes: Zig](https://learnxinyminutes.com/zig/) - A quick, code-heavy tour of Zig syntax and semantics for developers coming from other languages.
 
 ## Zig internals
 

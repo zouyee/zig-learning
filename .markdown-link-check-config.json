@@ -63,6 +63,15 @@
         },
         {
             "pattern": "^https://www.scattered-thoughts.net"
+        },
+        {
+            "pattern": "^https://youtu\\.be"
+        },
+        {
+            "pattern": "^https://www\\.infoq\\.com"
+        },
+        {
+            "pattern": "^https://gencmurat\\.com"
         }
     ]
 }
