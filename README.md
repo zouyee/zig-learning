@@ -83,9 +83,11 @@ The main documentation is always the best beginning, so if you haven't read it y
 
 ### Presentations
 
+* 2026-11-06 - [Libghostty 1.0](https://mitchellh.com/writing/libghostty-1-0) - `libghostty-vt` reaches 1.0 with a stable C ABI; already powers the terminal in JetBrains IDEs (12.5M+ users) and has bindings for Rust, Go, Swift, Python, and more
 * 2026-11-03 - [Zig 0.17.1 Released](https://ziglang.org/news/0.17.1-released/) - Bug fix release addressing 57+ issues reported after the 0.17.0 release
 * 2026-10-24 - [Zig Devlog: Partial Operator Precedence](https://ziglang.org/devlog/2026/) - Confusing operator combinations no longer have default precedence (proposal #114 lands); `zig fmt --upgrade` migrates automatically
 * 2026-10-20 - [Zig Devlog: Naked Package Metadata](https://ziglang.org/devlog/2026/) - Package metadata is now processed independently of build scripts
+* 2026-10-13 - [Zig Devlog: Printing Package Tree](https://ziglang.org/devlog/2026/) - `zig build --deps tree`-style visualization of the package dependency graph
 * 2026-10-14 - [Zig Devlog: Package Hash Consistency Validation](https://ziglang.org/devlog/2026/) - Supply-chain hardening via package hash consistency checks
 * 2026-10-02 - [Zig 0.17.0 Release Notes](https://ziglang.org/download/0.17.0/release-notes.html) - Build system reworked with the new Build Server Protocol; ELF linker improvements bring incremental compilation to x86_64-linux
 * 2026-09-23 - [The Zig Journey](https://kristoff.it/blog/the-zig-journey/) - Loris Cro's Zigtoberfest 2026 opening remarks: how to approach Zig as a newcomer, intermediate, or advanced user
@@ -130,6 +132,7 @@ Older podcasts (2024 and earlier) have been moved to the [archive](archive/).
 * [Benchmark In Milliseconds](https://matklad.github.io/2026/10/05/benchmark-milliseconds.html) - matklad's practical notes on driving performance work with millisecond-scale benchmarks
 * [A Terminal Protocol for Program Status (OSC 7501)](https://mitchellh.com/writing/program-status-osc7501) - Mitchell Hashimoto proposes a new terminal escape protocol for reporting program status
 * [Migrating cmdtest from Zig 0.15 to 0.16](https://probablyrevert.com/blog/2026-06-23-migrating-cmdtest-zig-015-to-016) - Hands-on migration notes: explicit `Io` parameters, `process.spawn`, `MultiReader`, and the `std.process.Init` struct
+* [Avoid Public Functions Calling Other Public Functions](https://matklad.github.io/2026/10/29/pub-calls-pub.html) - matklad on API layering in TigerStyle codebases: keep public functions as thin entry points that delegate to internal implementations
 
 ## Best Practices/Style Guides
 
@@ -348,6 +351,7 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * [Support error sets in switch cases](https://github.com/ziglang/zig/issues/2473) -  [hryx](https://github.com/hryx)
 * [Return Values and Error Unions in Zig](https://gencmurat.com/en/posts/advanced-guide-to-return-values-and-error-unions-in-zig/) - gencmurat  
 * [Errors and Zig](https://notes.eatonphil.com/errors-and-zig.html) -  [Phil Eaton](https://eatonphil.com/)
+* [Minimal Viable Zig Error Contexts](https://matklad.github.io/2026/05/03/zig-error-context.html) - matklad's pattern for attaching diagnostic context to Zig errors without a heavy error type
 
 ### Iterators
 
