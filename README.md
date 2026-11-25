@@ -46,6 +46,7 @@ The main documentation is always the best beginning, so if you haven't read it y
   * [Optional](#optional)
 * [Playground](#playground)
 * [Locale links](#locale-links)
+* [Weekly Zig Startup Jobs](#weekly-zig-startup-jobs)
 * [Connection](#connection)
   * [Fearless Zig Bloggers](#fearless-zig-bloggers)
 * [Tutorials & Workshop Materials](#tutorials--workshop-materials)
@@ -402,6 +403,17 @@ See repos [nrdmn/awesome-zig](https://github.com/nrdmn/awesome-zig) & [zigcc/awe
 * [alternative](https://godbolt.org/)
 
 ## Locale links
+
+## Weekly Zig Startup Jobs
+
+Verified open startup roles involving Zig for **2026-W48**. Availability and location requirements can change; confirm the details at the linked source. This list is reviewed weekly, and closed roles are removed.
+
+| Startup | Zig-related role | Work model | Location | Link / X | Verified |
+| --- | --- | --- | --- | --- | --- |
+| Blacksmith | Senior Systems Engineer (Zig is one of several accepted systems languages) | Onsite | New York City, 5 days/week | [Official posting](https://jobs.ashbyhq.com/Blacksmith/7f13567d-a9ab-4231-b439-99b84584257f) | 2026-11-25 |
+| Lightpanda | Senior Software Engineer - System Programming (Zig/C++) | Remote | Paris or EU (Remote) | [Official posting](https://lightpanda.io/jobs/senior-software-engineer_system-programming) | 2026-11-25 |
+| MatX | Software Engineer - Kernels (Zig is one of several accepted languages; the primary stack is Rust) | Hybrid | Mountain View, CA, 3 days/week | [Official posting](https://jobs.ashbyhq.com/matx/8b70cc48-860a-45e9-9683-513a17e6f3d9) | 2026-11-25 |
+| Syndica | Senior Software Engineer (Zig/Rust) | Remote | Not specified | [Official posting](https://jobs.ashbyhq.com/syndica/15ab4e32-0f32-41a0-b8b0-16b6518158e9) | 2026-11-25 |
 
 ## Connection
 
